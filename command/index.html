@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Alcatel-Lucent IMS Command Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Call Trace">
+    <meta name="author" content="Calvin Zhang">
+
+    <!-- Le styles -->
+    <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      .span9 {
+          padding-top: 20px;
+          padding-left: 80px;
+      }
+    </style>
+    <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">IMS Command Assistant</a>
+          <div class="btn-group pull-right">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+              <i class="icon-user"></i> Username
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Sign Out</a></li>
+            </ul>
+          </div>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span9">
+          <form class="form-horizontal" id="start_form">
+              <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="select01">Command</label>
+                    <div class="controls">
+                        <select id="select01" name="mode">
+                            <option value="1">Number of registered IMS user query
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="control-group" id="macthdir" style="display: none;">
+                    <label class="control-label" for="select01">Macth Direction</label>
+                    <div class="controls">
+                        <select id="select02" name="matchdir">
+                            <option value="Right">Right</option>
+                            <option value="Left">Left</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="control-group" id="callid">
+                    <label class="control-label" for="input02">Trace Criteria</label>
+                    <div class="controls">
+                        <abbr title="example: sip:+16310001@ln010.lucentlab.com" class="initialism">
+                            <input type="text" class="input-xlarge" id="input02" name="callid">
+                        </abbr>
+                        <p class="help-block">input sip uri, tel num or mgw id, required.</p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="input03">Duration</label>
+                    <div class="controls">
+                        <input type="text" class="input-xlarge" id="input03" name="duration" value="30">
+                        <p class="help-block">Input duration time, default is 30 minutes.</p>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary btn-large" style="width:120px;"> Start </button>
+                    <span id="ajax_load" style="margin-left: 20px; display: none;"><img alt="loading..." src="../assets/images/ajax_blue.gif" /></span>
+                </div>
+
+              </fieldset>
+          </form>
+
+        </div><!--/row-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; Alcatel-Lucent 2012 </p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery-1.7.2.min.js"></script>
+    <script src="../assets/js/cmdass.cz.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-transition.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-alert.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-modal.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-tab.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-popover.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-button.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-collapse.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-carousel.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

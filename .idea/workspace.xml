@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4a819b3-e076-4125-a743-0a4fb5369978" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/calltrace.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/images/jquery_32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/images/jqueryui_32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/images/sizzlejs_32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/images/transparent_1x1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/images/ui-anim_basic_16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/images/calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras2_min.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras3_min.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras4_min.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/images/high_tatras_min.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/images/calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/images/demo-config-on-tile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/images/demo-config-on.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/images/demo-spindown-closed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/images/demo-spindown-open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/images/icon-docs-info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/images/pbar-ani.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/position/images/earth.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/position/images/flight.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/position/images/rocket.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/progressbar/images/pbar-ani.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/ajax/content3-slow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/ajax/content4-broken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/ico/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/ico/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/bird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/bootstrap-mdo-sfmoma-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/bootstrap-mdo-sfmoma-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/bootstrap-mdo-sfmoma-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/browsers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/example-sites/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/example-sites/fleetio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/example-sites/jshint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/example-sites/kippt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/example-sites/soundready.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/examples/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/examples/bootstrap-example-fluid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/examples/bootstrap-example-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/examples/bootstrap-example-starter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/github-16px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/glyphicons/glyphicons_009_magic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/glyphicons/glyphicons_042_group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/glyphicons/glyphicons_079_podium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/glyphicons/glyphicons_082_roundabout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sanpingz.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/jquery-ui-1.8.22.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/AUTHORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/GPL-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/collapsible.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/custom-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/fillspace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/hoverintent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/mouseover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/no-auto-height.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/accordion/sortable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/addClass/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/addClass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/animate/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/animate/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/categories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/combobox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/custom-data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/folding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/london.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/maxheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/multiple-remote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/remote-jsonp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/remote-with-cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/remote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/autocomplete/xml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/button/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/button/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/button/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/button/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/button/radio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/button/splitbutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/button/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/alt-field.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/buttonbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/date-formats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/date-range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/dropdown-month-year.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/icon-trigger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/inline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/localization.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/min-max.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/multiple-calendars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/other-months.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/datepicker/show-week.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/demos.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/dialog/animated.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/dialog/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/dialog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/dialog/modal-confirmation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/dialog/modal-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/dialog/modal-message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/dialog/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/constrain-movement.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/cursor-style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/delay-start.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/handle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/revert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/snap-to.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/sortable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/draggable/visual-feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/accepted-elements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/photo-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/propagation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/revert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/shopping-cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/droppable/visual-feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/effect/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/effect/easing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/effect/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/hide/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/hide/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/position/cycler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/position/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/position/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/progressbar/animated.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/progressbar/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/progressbar/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/progressbar/resize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/removeClass/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/removeClass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/animate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/aspect-ratio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/constrain-area.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/delay-start.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/max-min.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/snap-to-grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/synchronous-resize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/textarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/resizable/visual-feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/selectable/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/selectable/display-grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/selectable/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/selectable/serialize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/show/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/show/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/colorpicker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/hotelrooms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/multiple-vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/range-vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/rangemax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/rangemin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/side-scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/slider-vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/steps.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/slider/tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/connect-lists-through-tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/connect-lists.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/delay-start.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/display-grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/empty-lists.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/items.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/placeholder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/sortable/portlets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/switchClass/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/switchClass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/ajax/content1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/ajax/content2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/bottom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/collapsible.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/cookie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/manipulation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/mouseover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/sortable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/tabs/vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/toggleClass/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/toggleClass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/toggle/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/demos/toggle/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/addClass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/animate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/autocomplete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/datepicker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/draggable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/droppable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/effect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/hide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/progressbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/removeClass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/resizable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/selectable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/show.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/slider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/sortable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/switchClass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/toggle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/docs/toggleClass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/external/jquery.bgiframe-2.1.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/external/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/external/jquery.metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/external/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/external/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/jquery-1.7.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.resizable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.selectable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/base/jquery.ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery-ui-1.8.22.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.resizable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.selectable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/themes/ui-lightness/jquery.ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery-ui-i18n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ar-DZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-cy-GB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-en-AU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-en-GB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-en-NZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fr-CH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-hy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-nl-BE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-rm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sr-SR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-ta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-tj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-zh-HK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/i18n/jquery.ui.datepicker-zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery-ui-1.8.22.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.blind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.bounce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.clip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.drop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.explode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.fade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.pulsate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.scale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.shake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.slide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.effects.transfer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.droppable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.mouse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.selectable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/jquery.ui.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.blind.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.bounce.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.clip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.drop.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.explode.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.fade.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.fold.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.highlight.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.pulsate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.scale.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.shake.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.slide.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.effects.transfer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.accordion.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.autocomplete.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.button.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.dialog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.draggable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.droppable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.position.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.progressbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.resizable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.selectable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.slider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.sortable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/development-bundle/ui/minified/jquery.ui.widget.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/jquery-ui-1.8.22.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/docs.css" />
+    </list>
+    <ignored path="calltrace.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="calltrace" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calltrace/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="28" selection-start="8638" selection-end="8638" vertical-scroll-proportion="-97.46154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1791" column="28" selection-start="29383" selection-end="29383" vertical-scroll-proportion="0.7310469">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="17" selection-start="7134" selection-end="7163" vertical-scroll-proportion="-95.46154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="49" selection-start="5675" selection-end="5675" vertical-scroll-proportion="-5.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/calltrace/data/ctid.dat" />
+        <option value="$PROJECT_DIR$/calltrace/genXML.py" />
+        <option value="$PROJECT_DIR$/calltrace/envConfig.py" />
+        <option value="$PROJECT_DIR$/calltrace/jsonDB.py" />
+        <option value="$PROJECT_DIR$/calltrace/FTPDownload.py" />
+        <option value="$PROJECT_DIR$/calltrace/stop.py" />
+        <option value="$PROJECT_DIR$/calltrace/CallTrace.py" />
+        <option value="$PROJECT_DIR$/calltrace/download.py" />
+        <option value="$PROJECT_DIR$/calltrace/start.py" />
+        <option value="$PROJECT_DIR$/assets/js/mceiba.ct.js" />
+        <option value="$PROJECT_DIR$/assets/js/mceiba/cmdass.cz.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/command/index.html" />
+        <option value="$PROJECT_DIR$/calltrace/index.html" />
+        <option value="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/docs.css" />
+        <option value="$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1032" />
+    <option name="height" value="746" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calltrace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calltrace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings>
+        <option name="myUseModuleSdk" value="true" />
+      </PyConsoleSettings>
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html" />
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\calltrace" />
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\img" />
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\calltrace" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\images" />
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\js" />
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib" />
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\bootstrap" />
+      <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\js\mceiba" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.init">
+    <configuration default="false" name="JsonDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calltrace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\calltrace\JsonDB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FTPDownload" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calltrace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\calltrace\FTPDownload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calltrace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calltrace/download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calltrace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calltrace/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="init" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calltrace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calltrace/init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.JsonDB" />
+      <item index="1" class="java.lang.String" itemvalue="Python.FTPDownload" />
+      <item index="2" class="java.lang.String" itemvalue="Python.download" />
+      <item index="3" class="java.lang.String" itemvalue="Python.start" />
+      <item index="4" class="java.lang.String" itemvalue="Python.init" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4a819b3-e076-4125-a743-0a4fb5369978" name="Default" comment="" />
+      <created>1344304418377</created>
+      <updated>1344304418377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1032" height="746" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16494845" sideWeight="0.21746576" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17382413" sideWeight="0.6706161" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1605317" sideWeight="0.36824325" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.50927836" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4549763" sideWeight="0.48350516" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938388" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/calltrace/stop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/data/sanpingz.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="48" selection-end="48" vertical-scroll-proportion="0.22077923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/calltrace.cz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="45" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="215" selection-end="215" vertical-scroll-proportion="0.3041145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/CallTrace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="21" selection-start="5108" selection-end="5108" vertical-scroll-proportion="0.4084249" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/FTPDownload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="534" selection-end="534" vertical-scroll-proportion="-0.08974359" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="410" selection-end="410" vertical-scroll-proportion="0.36956522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/cmdass.cz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.029982364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="49" selection-start="5675" selection-end="5675" vertical-scroll-proportion="-5.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/img/bird.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="17" selection-start="7134" selection-end="7163" vertical-scroll-proportion="-95.46154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.451263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/docs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="383" selection-end="383" vertical-scroll-proportion="0.26984128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="28" selection-start="8638" selection-end="8638" vertical-scroll-proportion="-97.46154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1791" column="28" selection-start="29383" selection-end="29383" vertical-scroll-proportion="0.7310469">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
