@@ -1,8 +1,11 @@
+#!/opt/exptools/bin/python
 __author__ = 'sanpingz'
 
 from os.path import join, abspath
-import sys, os
+import os, time
 import pickle
+from FTPDownload import ftpDownload
+import FTPDownload
 
 BASE_DIR = abspath('data')
 
@@ -19,18 +22,30 @@ class simpleDB:
         if self.isExist():
             file = open(self.userfile, 'rb')
             try:
-                try:
-                    old = pickle.load(file)
-                except EOFError, IOError:
-                    old = {}
-            finally: file.close()
+                old = pickle.load(file)
+            except EOFError, IOError:
+                old = {}
+            file.close()
         return old
-    def save(self, user):
+    def add(self, user):
         old = self.load()
         old.update(user)
         file = open(self.userfile, 'wb')
+        if self.isExist():
+            try:
+                pickle.dump(old, file)
+            finally: file.close()
+        else:
+            try:
+                pickle.dump(old, file)
+            finally:
+                file.close()
+                command = 'chmod 755 '+self.userfile
+                os.system(command)
+    def save(self, data):
+        file = open(self.userfile, 'wb')
         try:
-            pickle.dump(old, file)
+            pickle.dump(data, file)
         finally: file.close()
     def remove(self, ctid):
         old = self.load()
@@ -46,22 +61,51 @@ class simpleDB:
         else:
             return {}
     def update(self, user):
-        self.save(user)
+        self.add(user)
+    def filter(self, expires=7200):
+        old = dict(self.load())
+        data = {}
+        if old:
+            for key, value in old.items():
+                alt = int(time.time()-value['time'])
+                exp = int(value['duration'])*60
+                if alt <= expires:
+                    if alt >= exp and value['status'] == 'Started':
+                        param = FTPDownload.parameter
+                        param['host'] = value['labip']
+                        param['ctid'] = value['ctid']
+                        fd = ftpDownload(param)
+                        addr = fd.getAddr()
+                        if addr and (len(addr)>0):
+                            value['status'] = 'Stopped'
+                            value['addr'] = addr
+                        else:
+                            value['status'] = 'Failure'
+                            data[key] = value
+                    data[key] = value
+        self.save(data)
+        return data
 
 if __name__ == '__main__':
     sd = simpleDB('sanpingz')
+    TIMEFORMAT = '%Y-%m-%d %X'
+    cnt = time.time()+time.altzone+8*3600
+    startime = time.strftime(TIMEFORMAT, time.localtime(cnt))
     user = {
-        '2':{'ctid':'2',
+        '1':{'ctid':1,
              'mode':'SIPURI',
              'callid':'sip:+16310001@ln010.lucentlab.com',
-             'duration':'60',
+             'duration':1,
              'labip':'135.2.121.97',
-             'status':'OK',
-             'starttime':'2012-8-12'
+             'status':'Started',
+             'startime':startime,
+             'time': time.time()
         }
     }
+    sd.add(user)
     #sd.save(user)
-    sd.remove('2')
+    #sd.remove('2')
     #sd.update(user)
     #print sd.select('3')
     print sd.load()
+    #print sd.filter()

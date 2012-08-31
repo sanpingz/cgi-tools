@@ -5,21 +5,31 @@
       <w>alcatel</w>
       <w>callid</w>
       <w>calltrace</w>
+      <w>cmdass</w>
+      <w>confirm&quot;</w>
       <w>ctid</w>
       <w>ctlog</w>
       <w>curtime</w>
+      <w>exptools</w>
       <w>filelist</w>
       <w>filepath</w>
       <w>labip</w>
       <w>lucent</w>
+      <w>mailto</w>
+      <w>mailx</w>
       <w>matchdir</w>
       <w>mceiba</w>
       <w>mgwid</w>
       <w>passwd</w>
       <w>sanpingz</w>
       <w>sipuri</w>
+      <w>smtp</w>
+      <w>startime</w>
+      <w>tbody</w>
       <w>telnum</w>
       <w>timeformat</w>
+      <w>userfile</w>
+      <w>viewport</w>
       <w>zhang</w>
     </words>
   </dictionary>

@@ -1,9 +1,15 @@
+#!/opt/exptools/bin/python
 __author__ = 'sanpingz'
 
 from ftplib import FTP
 import re
 
-
+parameter = {'host':'135.2.121.97',
+         'user':'lss',
+         'passwd':'lss',
+         'cwd':'../../../logs/ctlog',
+         'ctid':'99'
+}
 class ftpDownload:
     def __init__(self,param):
         self.host = param['host']
@@ -39,13 +45,7 @@ class ftpDownload:
 
 
 if __name__ == '__main__':
-    param = {'host':'135.2.121.97',
-             'user':'lss',
-             'passwd':'lss',
-             'cwd':'../../../logs/ctlog',
-             'ctid':'97'
-    }
-    fd = ftpDownload(param)
+    fd = ftpDownload(parameter)
     print fd.getFileList()
     #print fd.matchFile()
     #print fd.getAddr()

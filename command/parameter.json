@@ -1,0 +1,15 @@
+{
+    "parameter":[
+        {
+            "type":"text",
+            "label":"parameter(text)",
+            "input":{
+                "name":"-t",
+                "value":"text"
+            },
+            "tip":"simple description for the option",
+            "rule":"string",
+            "children":[]
+        }
+    ]
+}

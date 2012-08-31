@@ -1,0 +1,27 @@
+{
+    "command":[
+        {
+            "label":"Number of registered IMS user query",
+            "value":"ims_cli"
+        },
+        {
+            "label":"Number of registered IMS user query -- 1",
+            "value":"ims_cli -- 1"
+        }
+    ],
+    "parameter":{
+        "ims_cli":[
+            {
+                "type":"text",
+                "label":"parameter(text)",
+                "input":{
+                    "name":"t",
+                    "value":"text"
+                },
+                "tip":"simple description for the option",
+                "rule":"string",
+                "children":[]
+            }
+        ]
+    }
+}

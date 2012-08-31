@@ -1,0 +1,91 @@
+{
+    "comment":"command templates",
+    "command":[
+        {
+            "name":"command-name",
+            "description":"a simple command"
+        },
+        {
+            "name":"demo command",
+            "description":"command used text"
+        }
+    ],
+    "parameter":[
+        {
+            "command-name":[
+                {
+                    "type":"[hidden|text|select|checkbox|radio]",
+                    "label":"display",
+                    "[input|option]":{},
+                    "tip":"a simple description",
+                    "rule":"[required|digits|number|string|url|ip]",
+                    "children":[]
+                },
+                {
+                    "type":"hidden",
+                    "input":[
+                        {
+                            "name":"d",
+                            "value":"hidden"
+                        }
+                    ]
+                },
+                {
+                    "type":"text",
+                    "label":"parameter(text)",
+                    "input":{
+                        "name":"t",
+                        "value":"text"
+                    },
+                    "tip":"simple description for the option",
+                    "rule":"string",
+                    "children":[]
+                },
+                {
+                    "type":"select",
+                    "label":"parameter(select)",
+                    "select":{
+                        "name":"s",
+                        "option":[
+                            {
+                                "label":"label",
+                                "value":"value"
+                            }
+                        ]
+                    },
+                    "tip":"simple description for the option",
+                    "rule":"required",
+                    "children":[]
+                },
+                {
+                    "type":"checkbox",
+                    "label":"parameter(checkbox)",
+                    "input":[
+                        {
+                            "label":"label",
+                            "name":"c",
+                            "value":"value"
+                        }
+                    ],
+                    "tip":"a simple description",
+                    "rule":"",
+                    "children":[]
+                },
+                {
+                    "type":"radio",
+                    "label":"parameter(radio)",
+                    "input":[
+                        {
+                            "label":"label",
+                            "name":"s",
+                            "value":"value"
+                        }
+                    ],
+                    "tip":"simple description for the option",
+                    "rule":"",
+                    "children":[]
+                }
+            ]
+        }
+    ]
+}

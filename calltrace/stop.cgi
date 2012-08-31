@@ -1,0 +1,16 @@
+#!/opt/exptools/bin/python
+import cgi
+from CallTrace import stopCall
+
+print 'Content-type: text/html'
+print
+
+form = cgi.FieldStorage()
+param = {}
+for key in form.keys():
+    param[key] = form[key].value
+stop = stopCall(param)
+stop.createXML()
+stop.startCommand()
+
+print stop.status

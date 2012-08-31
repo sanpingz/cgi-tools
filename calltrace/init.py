@@ -1,4 +1,4 @@
-#!/opt/x11r6/bin/python
+#!/opt/exptools/bin/python
 __author__ = 'sanpingz'
 
 from os.path import join, abspath
@@ -7,11 +7,13 @@ import pickle
 
 BASE_DIR = ''
 config = {'dirname':'data',
+          'logname':'log',
           'ctname':'ctid.dat'
 }
 def init():
     try:
         os.mkdir(config['dirname'])
+        os.mkdir(config['logname'])
     except Exception, OSError:
         pass
     BASE_DIR = abspath(config['dirname'])

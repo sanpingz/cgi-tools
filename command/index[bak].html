@@ -17,6 +17,7 @@
      .tips {margin-left: 30px;margin-right: 30px;}
      label {font-weight: 500;}
     </style>
+    <link rel="stylesheet" href="../assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/jquery-ui-1.8.22.custom.css">
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -24,6 +25,11 @@
     <![endif]-->
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-57-precomposed.png">
+    <script src="../assets/js/jquery-1.7.2.min.js"></script>
   </head>
   <body>
     <div class="navbar navbar-fixed-top">
@@ -61,8 +67,9 @@
                 <div class="control-group">
                     <h4 class="control-label" for="select01" style="width:80px;">Command</h4>
                     <div class="controls" style="margin-left:90px;">
-                        <select id="command-select" name="mode" style="width:280px;">
-                            <option> ---- choose one ---- </option>
+                        <select id="select01" name="mode" style="width:280px;">
+                            <option value="1">Number of registered IMS user query
+                            </option>
                         </select>
                     </div>
                 </div>
@@ -148,13 +155,19 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery-1.7.2.min.js"></script>
     <script src="../assets/js/cmdass.cz.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            cz_command.init();
-            cz_command.change();
-        });
-    </script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-transition.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-alert.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-modal.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-tab.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-popover.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-button.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-collapse.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-carousel.js"></script>
+    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-typeahead.js"></script>
+    <script src="../assets/lib/jquery-ui-1.8.22.custom/js/jquery-ui-1.8.22.custom.min.js"></script>
   </body>
 </html>
