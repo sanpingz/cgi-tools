@@ -5,7 +5,7 @@ from JsonDB import simpleDB
 import cgi
 from CallTrace import stopCall
 
-print 'Content-type: text/html'
+print 'Content-type: text/plain'
 print
 
 form = cgi.FieldStorage()

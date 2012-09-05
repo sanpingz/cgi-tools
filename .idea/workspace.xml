@@ -2,436 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a819b3-e076-4125-a743-0a4fb5369978" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calltrace/SendMail.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calltrace/check.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calltrace/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calltrace/download.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calltrace/load.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calltrace/mail.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/command.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/parameter.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/template.json" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\AUTHORS.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\GPL-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\collapsible.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\custom-icons.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\fillspace.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\hoverintent.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\mouseover.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\no-auto-height.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\accordion\sortable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\addClass\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\addClass\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\animate\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\animate\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\categories.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\combobox.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\custom-data.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\folding.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\images\jquery_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\images\jqueryui_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\images\sizzlejs_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\images\transparent_1x1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\images\ui-anim_basic_16x16.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\london.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\maxheight.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\multiple-remote.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\multiple.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\remote-jsonp.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\remote-with-cache.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\remote.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\search.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\autocomplete\xml.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\button\checkbox.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\button\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\button\icons.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\button\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\button\radio.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\button\splitbutton.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\button\toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\alt-field.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\animation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\buttonbar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\date-formats.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\date-range.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\dropdown-month-year.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\icon-trigger.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\images\calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\inline.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\localization.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\min-max.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\multiple-calendars.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\other-months.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\datepicker\show-week.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\demos.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\dialog\animated.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\dialog\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\dialog\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\dialog\modal-confirmation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\dialog\modal-form.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\dialog\modal-message.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\dialog\modal.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\constrain-movement.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\cursor-style.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\delay-start.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\events.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\handle.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\revert.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\scroll.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\snap-to.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\sortable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\draggable\visual-feedback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\accepted-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras2_min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras3_min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras4_min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\images\high_tatras_min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\photo-manager.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\propagation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\revert.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\shopping-cart.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\droppable\visual-feedback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\effect\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\effect\easing.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\effect\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\hide\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\hide\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\images\calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\images\demo-config-on-tile.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\images\demo-config-on.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\images\demo-spindown-closed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\images\demo-spindown-open.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\images\icon-docs-info.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\images\pbar-ani.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\position\cycler.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\position\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\position\images\earth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\position\images\flight.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\position\images\rocket.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\position\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\progressbar\animated.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\progressbar\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\progressbar\images\pbar-ani.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\progressbar\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\progressbar\resize.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\removeClass\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\removeClass\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\animate.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\aspect-ratio.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\constrain-area.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\delay-start.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\helper.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\max-min.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\snap-to-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\synchronous-resize.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\textarea.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\resizable\visual-feedback.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\selectable\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\selectable\display-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\selectable\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\selectable\serialize.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\show\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\show\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\colorpicker.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\hotelrooms.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\multiple-vertical.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\range-vertical.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\range.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\rangemax.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\rangemin.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\side-scroll.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\slider-vertical.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\steps.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\slider\tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\connect-lists-through-tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\connect-lists.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\delay-start.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\display-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\empty-lists.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\items.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\placeholder.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\sortable\portlets.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\switchClass\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\switchClass\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\ajax\content1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\ajax\content2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\ajax\content3-slow.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\ajax\content4-broken.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\bottom.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\collapsible.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\cookie.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\manipulation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\mouseover.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\sortable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\tabs\vertical.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\toggleClass\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\toggleClass\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\toggle\default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\demos\toggle\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\accordion.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\addClass.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\animate.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\autocomplete.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\button.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\datepicker.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\draggable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\droppable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\effect.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\hide.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\position.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\progressbar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\removeClass.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\resizable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\selectable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\show.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\slider.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\sortable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\switchClass.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\docs\toggleClass.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\jquery-1.7.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.all.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.button.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.resizable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.selectable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery-ui-1.8.22.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.all.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.button.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.core.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.resizable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.selectable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\ui-lightness\jquery.ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery-ui-i18n.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-af.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ar-DZ.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-az.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-bs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-cy-GB.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-da.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-de.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-el.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-en-AU.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-en-GB.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-en-NZ.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-eo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-et.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-eu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-fa.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-fo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-fr-CH.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-he.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-hi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-hy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-id.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-is.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-it.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ka.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-kk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-km.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ko.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-lb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-lv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-mk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ml.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ms.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-nl-BE.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-no.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-rm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-sl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-sq.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-sr-SR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-sr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-ta.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-th.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-tj.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-zh-HK.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\i18n\jquery.ui.datepicker-zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery-ui-1.8.22.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.blind.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.bounce.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.clip.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.drop.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.explode.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.fade.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.fold.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.pulsate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.scale.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.shake.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.slide.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.effects.transfer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.autocomplete.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.button.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.droppable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.mouse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.position.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.resizable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.selectable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.sortable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\jquery.ui.widget.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\calltrace\download.py" afterPath="" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\external\jquery.bgiframe-2.1.2.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/ext/jquery.bgiframe-2.1.2.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\external\jquery.cookie.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/ext/jquery.cookie.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\external\jquery.metadata.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/ext/jquery.metadata.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\external\qunit.css" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/ext/qunit.css" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\external\qunit.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/ext/qunit.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.core.css" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/jquery.ui.core.css" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\themes\base\jquery.ui.dialog.css" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/jquery.ui.dialog.css" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.blind.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.blind.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.bounce.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.bounce.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.clip.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.clip.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.core.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.core.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.drop.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.drop.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.explode.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.explode.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.fade.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.fade.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.fold.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.fold.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.highlight.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.highlight.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.pulsate.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.pulsate.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.scale.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.scale.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.shake.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.shake.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.slide.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.slide.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.effects.transfer.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.effects.transfer.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.accordion.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.accordion.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.autocomplete.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.autocomplete.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.button.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.button.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.core.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.core.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.datepicker.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.datepicker.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.dialog.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.dialog.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.draggable.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.draggable.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.droppable.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.droppable.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.mouse.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.mouse.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.position.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.position.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.progressbar.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.progressbar.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.resizable.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.resizable.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.selectable.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.selectable.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.slider.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.slider.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.sortable.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.sortable.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.tabs.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.tabs.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\development-bundle\ui\minified\jquery.ui.widget.min.js" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.8.22.custom/js/min/jquery.ui.widget.min.js" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\calltrace\start.py" afterPath="$PROJECT_DIR$/calltrace/start.cgi" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\calltrace\stop.py" afterPath="$PROJECT_DIR$/calltrace/stop.cgi" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\command\index.html" afterPath="$PROJECT_DIR$/command/index[bak].html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/calltrace.iml" afterPath="$PROJECT_DIR$/.idea/calltrace.iml" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\calltrace\demo.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/sanpingz.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/sanpingz.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/calltrace.cz.js" afterPath="$PROJECT_DIR$/assets/js/calltrace.cz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/cmdass.cz.js" afterPath="$PROJECT_DIR$/assets/js/cmdass.cz.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/CallTrace.py" afterPath="$PROJECT_DIR$/calltrace/CallTrace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/FTPDownload.py" afterPath="$PROJECT_DIR$/calltrace/FTPDownload.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/JsonDB.py" afterPath="$PROJECT_DIR$/calltrace/JsonDB.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/data/sanpingz.json" afterPath="$PROJECT_DIR$/calltrace/data/sanpingz.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/check.cgi" afterPath="$PROJECT_DIR$/calltrace/check.cgi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/download.cgi" afterPath="$PROJECT_DIR$/calltrace/download.cgi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/index.html" afterPath="$PROJECT_DIR$/calltrace/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/init.py" afterPath="$PROJECT_DIR$/calltrace/init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/index.html" afterPath="$PROJECT_DIR$/command/index.html" />
     </list>
     <ignored path="calltrace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -457,19 +35,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calltrace/index.html">
+      <file leaf-file-name="CallTrace.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calltrace/CallTrace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="129" selection-start="8475" selection-end="8475" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="-4.124549">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calltrace.cz.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/calltrace.cz.js">
+      <file leaf-file-name="thread.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/thread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="57" selection-start="9822" selection-end="9822" vertical-scroll-proportion="0.7364621">
+            <state line="10" column="16" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calltrace/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="186" column="137" selection-start="9643" selection-end="9643" vertical-scroll-proportion="3.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.cgi" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calltrace/start.cgi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="35" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -483,16 +79,16 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Calvin" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/command/command.json" />
-        <option value="$PROJECT_DIR$/command/template.json" />
-        <option value="$PROJECT_DIR$/command/index.html" />
-        <option value="$PROJECT_DIR$/calltrace/CallTrace.py" />
-        <option value="$PROJECT_DIR$/calltrace/check.py" />
         <option value="$PROJECT_DIR$/calltrace/download.py" />
         <option value="$PROJECT_DIR$/calltrace/FTPDownload.py" />
         <option value="$PROJECT_DIR$/calltrace/init.py" />
@@ -502,8 +98,13 @@
         <option value="$PROJECT_DIR$/calltrace/SendMail.py" />
         <option value="$PROJECT_DIR$/calltrace/start.py" />
         <option value="$PROJECT_DIR$/calltrace/stop.py" />
-        <option value="$PROJECT_DIR$/calltrace/index.html" />
+        <option value="$PROJECT_DIR$/calltrace/check.cgi" />
+        <option value="$PROJECT_DIR$/calltrace/download.cgi" />
         <option value="$PROJECT_DIR$/assets/js/calltrace.cz.js" />
+        <option value="$PROJECT_DIR$/calltrace/index.html" />
+        <option value="$PROJECT_DIR$/calltrace/CallTrace.py" />
+        <option value="$PROJECT_DIR$/calltrace/start.cgi" />
+        <option value="$PROJECT_DIR$/demo/thread.py" />
       </list>
     </option>
   </component>
@@ -539,16 +140,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -577,6 +168,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calltrace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="calltrace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -595,22 +200,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calltrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -652,25 +249,7 @@
       <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\bootstrap" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.init">
-    <configuration default="false" name="init" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calltrace" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="calltrace" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calltrace/init.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.thread">
     <configuration default="false" name="Doctests in C:\Documents and Settings\sanpingz\PycharmProjects\public_html" type="tests" factoryName="Doctests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -745,6 +324,24 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -806,11 +403,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.init" />
-      <item index="1" class="java.lang.String" itemvalue="Python's test.Doctests in C:\Documents and Settings\sanpingz\PycharmProjects\public_html" />
-      <item index="2" class="java.lang.String" itemvalue="Python.JsonDB" />
-      <item index="3" class="java.lang.String" itemvalue="Python.CallTrace" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SimpleJson" />
+      <item index="0" class="java.lang.String" itemvalue="Python's test.Doctests in C:\Documents and Settings\sanpingz\PycharmProjects\public_html" />
+      <item index="1" class="java.lang.String" itemvalue="Python.JsonDB" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CallTrace" />
+      <item index="3" class="java.lang.String" itemvalue="Python.SimpleJson" />
+      <item index="4" class="java.lang.String" itemvalue="Python.thread" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -862,13 +459,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="746" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22117648" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993865" sideWeight="0.33445945" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21267894" sideWeight="0.6638514" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23006135" sideWeight="0.6706081" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20858896" sideWeight="0.3243243" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.50927836" order="0" side_tool="true" content_ui="tabs" />
@@ -920,7 +518,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish call trace" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -933,49 +531,15 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="finish call trace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/calltrace/download.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/FTPDownload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/JsonDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/load.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/SendMail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/check.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calltrace/stop.cgi">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.5924933" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/start.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calltrace/out">
@@ -993,31 +557,63 @@
         <state line="23" column="31" selection-start="529" selection-end="529" vertical-scroll-proportion="0.6296296" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/mail.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.025270758" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command/command.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/CallTrace.py">
+    <entry file="file://$PROJECT_DIR$/calltrace/JsonDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" />
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.6190476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calltrace/index.html">
+    <entry file="file://$PROJECT_DIR$/calltrace/mail.cgi">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="129" selection-start="8475" selection-end="8475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.03068592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/load.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/download.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="470" selection-end="470" vertical-scroll-proportion="0.7495591" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/check.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.47971782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/calltrace.cz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="57" selection-start="9822" selection-end="9822" vertical-scroll-proportion="0.7364621">
+        <state line="7" column="12" selection-start="160" selection-end="160" vertical-scroll-proportion="0.21480145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/start.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="35" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="137" selection-start="9643" selection-end="9643" vertical-scroll-proportion="3.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calltrace/CallTrace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="-4.124549">
           <folding />
         </state>
       </provider>

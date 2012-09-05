@@ -21,9 +21,8 @@
       .ui-dialog-titlebar-close { display: none; }
       .cb_status { color: red; }
       .inner-hb { margin-top: 0;}
-      #send-form {
-          margin: 15px 10px 15px 10px;
-      }
+      #send-form { margin: 15px 10px 15px 10px; }
+      .control-group label { font-weight:700; }
     </style>
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/jquery-ui-1.8.22.custom.css">
@@ -88,7 +87,7 @@
       </div>
     </div>
 
-    <div class="container-fluid" id="main-tab" style="display: none">
+    <div class="container-fluid" id="main-tab" style="display: none;">
       <div class="row-fluid">
         <div class="span9">
             <form class="form-horizontal" id="start_form">
@@ -99,7 +98,7 @@
                             <abbr title="example: 135.2.121.97" class="initialism">
                                 <input type="text" class="input-xlarge" id="input01" name="labip">
                             </abbr>
-                            <p class="help-block" style="margin-top:0; font-size:12px;">Input the lab IP address, required.</p>
+                            <p id="ip-tips" class="help-block" style="margin-top:0; font-size:12px;">Input the lab IP address, required.</p>
                         </div>
                     </div>
                     <div class="control-group">
@@ -124,17 +123,17 @@
                     <div class="control-group" id="callid">
                         <label class="control-label" for="input02">Trace Criteria</label>
                         <div class="controls">
-                            <abbr title="example: sip:+16310001@ln010.lucentlab.com" class="initialism">
+                            <abbr title="example: sip:16310001@qd.lucentlab.com" class="initialism">
                                 <input type="text" class="input-xlarge" id="input02" name="callid">
                             </abbr>
-                            <p class="help-block" style="margin-top:0; font-size:12px;">input sip uri, tel num or mgw id, required.</p>
+                            <p id="trace-tips" class="help-block" style="margin-top:0; font-size:12px;">input a sip uri, required.</p>
                         </div>
                     </div>
-                    <div class="control-group">
+                    <div class="control-group" id="duration">
                         <label class="control-label" for="input03">Duration</label>
                         <div class="controls">
                             <input type="text" class="input-xlarge" id="input03" name="duration" value="30">
-                            <p class="help-block" style="margin-top:0; font-size:12px;">Input duration time, default is 30 minutes.</p>
+                            <p id="dur-tips" class="help-block" style="margin-top:0; font-size:12px;">Input duration time, default is 30 minutes.</p>
                         </div>
                     </div>
                     <div class="form-actions">
@@ -185,7 +184,7 @@
       <hr>
 
       <footer style="margin-left:20px;">
-        <p>&copy; Alcatel-Lucent 2012 </p>
+        <p>&copy; Alcatel-Lucent 2012, supported by <a href="mailto:david.dn.dong@alcatel-lucent.com">David Dong</a> and <a href="mailto:sanping.zhang@alcatel-lucent.com">Calvin Zhang</a>.</p>
       </footer>
 
     </div><!--/.fluid-container-->
@@ -196,8 +195,8 @@
     <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-dropdown.js"></script>
   <script type="text/javascript">
       $(document).ready(function(){
-          start_call.init();
-          start_call.rmClass();
+          start_call.start();
+          start_call.stop();
           $("#select01").click(function(){
               var type = $(this).val();
               if(type == 'TELNUM'){

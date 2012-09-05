@@ -3,7 +3,7 @@ __author__ = 'sanpingz'
 
 import cgi, os
 
-print 'Content-type: text/html'
+print 'Content-type: text/plain'
 print
 
 form = cgi.FieldStorage()

@@ -6,16 +6,79 @@
  * To change this template use File | Settings | File Templates.
  */
 start_call={
-    init : function(){
-        $("#start_form").submit(function(){
-            if($("#input01").val()==''&&$("#input02").val()==''){
-                $("#labip").addClass("warning");
-                $("#callid").addClass("warning");
-            }else if($("#input01").val()==''&&$("#input02").val()!=''){
-                $("#labip").addClass("warning");
-            }else if($("#input01").val()!=''&&$("#input02").val()==''){
-                $("#callid").addClass("warning");
+    start : function(){
+        var ip = $("#labip"),
+            trace = $("#callid"),
+            dur = $("#duration");
+        function updateTips(d, t) {
+            d.addClass( "warning" );
+            d.find("p").first().text( t );
+        }
+        function checkInt(d, t, max){
+            var s = d.find('input').first();
+            if(s.val()=='' || s.val()!=parseInt(s.val(),10) || parseInt(s.val(),10)<=0||parseInt(s.val(),10)>max){
+                updateTips(d ,t);
+                return false;
             }else{
+                updateTips(d ,'OK');
+                d.removeClass('warning');
+                return true;
+            }
+        }
+        function checkRegexp(p, d, t){
+            if(!p.test(d.find('input').first().val())){
+                updateTips(d ,t);
+                return false
+            }else{
+                updateTips(d ,'OK');
+                d.removeClass('warning');
+                return true;
+            }
+        }
+        function checkIP(){
+            var reg = /^(?:(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))$/;
+            return checkRegexp(reg, ip, 'Please input a valid IP.');
+        }
+        function checkCallId(){
+            var mode = $("#select01").val();
+            var valid = false;
+            var reg = /\w+/;
+            if(mode == 'SIPURI'){
+                reg = /sip(s?)\:[\w\.\-\+]+@([\w\-]+\.)+[a-zA-Z]/;
+                valid = checkRegexp(reg ,trace, 'Please input a valid sip uri.');
+                valid = valid && ($("#input02").val().length<=63);
+            }else if(mode == 'TELNUM'){
+                reg = /^\d{4,32}$/;
+                valid = checkRegexp(reg ,trace, 'Please input a valid telephone number.');
+            }else if(mode == 'MGWID'){
+                reg = /^\w{4,256}$/;
+                valid = checkRegexp(reg ,trace, 'Please input a valid gateway id.');
+            }
+            return valid;
+        }
+        function checkDuration(){
+            return checkInt(dur, 'Please input a valid duration.', 60);
+        }
+        document.getElementById("input01").onblur = function(){
+            checkIP();
+        }
+        document.getElementById("input02").onblur = function(){
+            checkCallId();
+        }
+        document.getElementById("input03").onblur = function(){
+            checkDuration();
+        }
+        $("#select01").change(function(){
+            if(!checkCallId()){
+                $("#input02").val('');
+            }
+        });
+        $("#start_form").submit(function(){
+            var valid = true;
+            valid = valid && checkIP();
+            valid = valid && checkCallId();
+            valid = valid && checkDuration();
+            if(valid){
                 $("#ajax_load").show();
                 var data = $("#start_form").serialize();
                 var uri = 'start.cgi';
@@ -29,6 +92,8 @@ start_call={
             };
             return false;
         });
+    },
+    stop : function(){
         $('#stop_form button[type=button]').live('click',function(){
             $("#ajax_load").show();
             var uri = 'stop.cgi';
@@ -66,7 +131,7 @@ start_call={
             return false;
         });
     },
-    loadList : function(){
+    load : function(){
         var handle = $("#username").text();
         if(handle!='handle'){
             $.post('load.cgi', { handle:handle}, function(data){
@@ -76,22 +141,6 @@ start_call={
                 }
             });
         }
-    },
-    rmClass : function(){
-        $("#input01").blur(function(){
-            if($(this).val()==''){
-                $("#labip").addClass("warning");
-            }else{
-                $("#labip").removeClass("warning");
-            }
-        });
-        $("#input02").blur(function(){
-            if($(this).val()==''){
-                $("#callid").addClass("warning");
-            }else{
-                $("#callid").removeClass("warning");
-            }
-        });
     },
     check : function(){
         $(function() {
@@ -139,7 +188,7 @@ start_call={
                         }
                         $("#dialog-form").dialog( "close" );
                         $("#main-tab").show();
-                        start_call.loadList()
+                        start_call.load()
                     }else{
                         updateTips( n );
                     }
@@ -174,7 +223,7 @@ start_call={
                 /*code*/
                 $("#username").replaceWith('<span id="username">'+cookie.get('handle')+'</span>');
                 $("#main-tab").show();
-                start_call.loadList()
+                start_call.load()
             }else{
                 $("#dialog-form").dialog( "open" );
                 $("#handle").focus();
@@ -231,7 +280,7 @@ start_call={
                     if(data.length>1){
                         updateTips( "Oops, we have tried our best, please try again!" );
                     }else{
-                        updateTips( "Your comment sent successfully, thank you." );
+                        updateTips( "Your comments were sent successfully, thank you." );
                     }
                 });
             }
