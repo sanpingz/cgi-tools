@@ -93,7 +93,7 @@ class startCall:
                 cb = os.system(command)
                 if cb : self.status = 'Failure'
                 os.remove(input)
-                #os.remove(out)
+                os.remove(out)
             except OSError, Exception:
                 self.status = 'Failure'
                 self.error['startCommand'] = 'command execute error'

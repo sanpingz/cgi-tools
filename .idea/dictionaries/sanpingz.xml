@@ -10,6 +10,7 @@
       <w>ctid</w>
       <w>ctlog</w>
       <w>curtime</w>
+      <w>dirpath</w>
       <w>exptools</w>
       <w>filelist</w>
       <w>filepath</w>

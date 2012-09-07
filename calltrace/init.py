@@ -25,6 +25,7 @@ def init():
     except Exception, OSError:
         pass
     file.close()
+    os.system('chmod 777 '+BASE_DIR)
     os.system('chmod 777 '+filepath)
 
 if __name__ == '__main__':

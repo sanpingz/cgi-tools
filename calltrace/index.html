@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Alcatel-Lucent IMS Lab Call Trace Tool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,100 +9,118 @@
     <!-- Le styles -->
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
-      body { padding-top: 60px; padding-bottom: 40px; }
-      .sidebar-nav { padding: 9px 0; }
-      .span9 { padding-top: 20px; padding-left: 80px; }
-      .ct-button { width: 70px; height:20px; margin-top:0; margin-bottom:0; }
-      #dialog-form form fieldset label, #dialog-form form fieldset input { display:block; }
-      #dialog-form form fieldset input.text { margin-bottom:12px; width:95%; padding: .4em; }
-      #dialog-form form fieldset { padding:0; border:0; margin-top:25px; }
-      .ui-dialog .ui-state-error { padding: .3em; }
-      .validateTips { border: 1px solid transparent; padding: 0.3em; }
-      .ui-dialog-titlebar-close { display: none; }
-      .cb_status { color: red; }
-      .inner-hb { margin-top: 0;}
-      #send-form { margin: 15px 10px 15px 10px; }
-      .control-group label { font-weight:700; }
+        body { padding-top: 60px; padding-bottom: 40px; }
+        .sidebar-nav { padding: 9px 0; }
+        .row-fluid { padding-top: 10px; padding-left: 80px; }
+
+        .ct-button { width: 70px; height: 20px; margin-top: 0; margin-bottom: 0; }
+        #dialog-form form fieldset label, #dialog-form form fieldset input { display: block; }
+        #dialog-form form fieldset input.text { margin-bottom: 12px; width: 95%; padding: .4em; }
+        #dialog-form form fieldset { padding: 0; border: 0; margin-top: 25px; }
+        .ui-dialog .ui-state-error { padding: .3em; }
+        .validateTips { border: 1px solid transparent; padding: 0.3em; }
+        .ui-dialog-titlebar-close { display: none; }
+        .cb_status { color: red; }
+        .inner-hb { margin-top: 0; }
+        #send-form { margin: 15px 10px 15px 10px; }
+        .control-group label { font-weight: 700; }
+        .marketing h2 { margin: 4px 0 8px; font-size: 34px; font-weight: 300; text-align: center; }
+        .marketing h3 { margin-bottom: 10px; font-size: 22px; }
+        .marketing-byline { margin: 8px 0 20px; font-size: 24px; font-weight: 300; line-height: 24px; color: #999; text-align: center;
     </style>
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/jquery-ui-1.8.22.custom.css">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="../assets/images/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-57-precomposed.png">
 
     <script src="../assets/js/jquery-1.7.2.min.js"></script>
     <script src="../assets/js/calltrace.cz.js"></script>
     <script src="../assets/lib/jquery-ui-1.8.22.custom/js/jquery-ui-1.8.22.custom.min.js"></script>
-  </head>
+</head>
 
-  <body>
-  <div class="confirm-box" style="display:none;">
-      <div id="dialog-form" title="Input your handle">
-          <span class="validateTips">The first checking is need long time, please wait patiently.</span>
-          <form>
-              <fieldset>
-                  <label for="handle">Handle</label>
-                  <input type="text" name="handle" id="handle" class="text ui-widget-content ui-corner-all" />
-                  <input type="checkbox" id="remember" checked="checked" style="float:left; margin-left:2px; margin-right:6px;"> <span style="float:left;">Remember me.</span>
-              </fieldset>
-          </form>
-      </div>
-  </div>
-  <script type="text/javascript">
-      start_call.check();
-  </script>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">IMS Call Trace</a>
-          <div class="btn-group pull-right">
-            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-              <i class="icon-user"></i>
-              <span id="username">handle</span>
-              <span class="caret"></span>
-            </a>
-              <ul class="dropdown-menu">
-                  <li id="logout"><a href="javascript:void(0)">Sign Out</a></li>
-              </ul>
-          </div>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="javascript:void(0)" id="feedback">Feedback</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
+<body>
+<div class="confirm-box" style="display:none;">
+    <div id="dialog-form" title="Input your handle">
+        <span class="validateTips">The first checking is need long time, please wait patiently.</span>
+
+        <form>
+            <fieldset>
+                <label for="handle">Handle</label>
+                <input type="text" name="handle" id="handle" class="text ui-widget-content ui-corner-all"/>
+                <input type="checkbox" id="remember" checked="checked"
+                       style="float:left; margin-left:2px; margin-right:6px;"> <span
+                    style="float:left;">Remember me.</span>
+            </fieldset>
+        </form>
     </div>
+</div>
+<script type="text/javascript">
+    start_call.check();
+</script>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">IMS Call Trace</a>
 
-    <div class="container-fluid" id="main-tab" style="display: none;">
-      <div class="row-fluid">
+            <div class="btn-group pull-right">
+                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="icon-user"></i>
+                    <span id="username">handle</span>
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li id="logout"><a href="javascript:void(0)">Sign Out</a></li>
+                </ul>
+            </div>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li class="active"><a href="javascript:void(0)" id="home">Home</a></li>
+                    <li><a href="javascript:void(0)" id="feedback">Feedback</a></li>
+                    <li><a href="javascript:void(0)" id="about">About</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="main-tab" style="display: none;">
+    <div class="row-fluid">
         <div class="span9">
             <form class="form-horizontal" id="start_form">
                 <fieldset>
                     <div class="control-group" id="labip">
                         <label class="control-label" for="input01">CNFG IP</label>
+
                         <div class="controls">
                             <abbr title="example: 135.2.121.97" class="initialism">
                                 <input type="text" class="input-xlarge" id="input01" name="labip">
                             </abbr>
-                            <p id="ip-tips" class="help-block" style="margin-top:0; font-size:12px;">Input the lab IP address, required.</p>
+
+                            <p id="ip-tips" class="help-block" style="margin-top:0; font-size:12px;">Input the lab IP
+                                address, required.</p>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="select01">Trace Type</label>
+
                         <div class="controls">
                             <select id="select01" name="mode">
                                 <option value="SIPURI">SIP URI</option>
@@ -113,6 +131,7 @@
                     </div>
                     <div class="control-group" id="macthdir" style="display: none;">
                         <label class="control-label" for="select01">Macth Direction</label>
+
                         <div class="controls">
                             <select id="select02" name="matchdir">
                                 <option value="Right">Right</option>
@@ -122,98 +141,181 @@
                     </div>
                     <div class="control-group" id="callid">
                         <label class="control-label" for="input02">Trace Criteria</label>
+
                         <div class="controls">
                             <abbr title="example: sip:16310001@qd.lucentlab.com" class="initialism">
                                 <input type="text" class="input-xlarge" id="input02" name="callid">
                             </abbr>
-                            <p id="trace-tips" class="help-block" style="margin-top:0; font-size:12px;">input a sip uri, required.</p>
+
+                            <p id="trace-tips" class="help-block" style="margin-top:0; font-size:12px;">input a sip uri,
+                                required.</p>
                         </div>
                     </div>
                     <div class="control-group" id="duration">
                         <label class="control-label" for="input03">Duration</label>
+
                         <div class="controls">
                             <input type="text" class="input-xlarge" id="input03" name="duration" value="30">
-                            <p id="dur-tips" class="help-block" style="margin-top:0; font-size:12px;">Input duration time, default is 30 minutes.</p>
+
+                            <p id="dur-tips" class="help-block" style="margin-top:0; font-size:12px;">Input duration
+                                time, default is 30 minutes.</p>
                         </div>
                     </div>
                     <div class="form-actions">
-                        <button type="submit" class="btn btn-primary btn-large" style="width:120px;"> Start </button>
-                        <button type="reset" class="btn btn-large" style="width:120px; margin-left: 20px;"> Reset </button>
-                        <span id="ajax_load" style="margin-left: 20px; display: none;"><img alt="loading..." src="../assets/images/ajax_blue.gif" /></span>
+                        <button type="submit" class="btn btn-primary btn-large" style="width:120px;"> Start</button>
+                        <button type="reset" class="btn btn-large" style="width:120px; margin-left: 20px;"> Reset
+                        </button>
+                        <span id="ajax_load" style="margin-left: 20px; display: none;"><img alt="loading..."
+                                                                                            src="../assets/images/ajax_blue.gif"/></span>
                     </div>
 
                 </fieldset>
             </form>
 
-          </div><!--/row-->
-          <div class="mail-box" style="display:none;">
-              <div id="mail-form" title="Feedback">
-                  <span id="mail-tips"> Any questions and suggestions are welcomed! </span>
-                  <form id="send-form">
-                      <fieldset>
-                          <label for="mail-content"><h4>Comment</h4></label>
-                          <textarea name="content" id="mail-content" class="text ui-widget-content ui-corner-all" style="width:500px; height:160px;"></textarea>
-                      </fieldset>
-                  </form>
-              </div>
-          </div>
+        </div>
+        <!--/row-->
+        <div class="mail-box" style="display:none;">
+            <div id="mail-form" title="Feedback">
+                <span id="mail-tips"> Any questions and suggestions are welcomed! </span>
+
+                <form id="send-form">
+                    <fieldset>
+                        <label for="mail-content"><h4>Comment</h4></label>
+                        <textarea name="content" id="mail-content" class="text ui-widget-content ui-corner-all"
+                                  style="width:500px; height:160px;"></textarea>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
         <div class="span11" id="call_back" style="margin-bottom: 40px; display: none;">
             <h2>Call Trace Task</h2>
+
             <form id="stop_form">
-            <table class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                    <th>CTID</th>
-                    <th>Trace Type</th>
-                    <th>Trace Criteria</th>
-                    <th>Duration</th>
-                    <th>CNFG IP</th>
-                    <th>Status</th>
-                    <th>Start Time</th>
-                    <th>Operation</th>
-                </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th>CTID</th>
+                        <th>Trace Type</th>
+                        <th>Trace Criteria</th>
+                        <th>Duration</th>
+                        <th>CNFG IP</th>
+                        <th>Status</th>
+                        <th>Start Time</th>
+                        <th>Operation</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
             </form>
         </div>
-        </div><!--/span-->
-      </div><!--/row-->
+    </div>
+    <!--/span-->
+</div>
+<!--/row-->
+<div class="container-fluid" id="about-tab" style="display: none;">
+    <div class="row-fluid">
+        <div class="span10 marketing">
+            <h2>IMS Call Trace Management</h2>
+            <p class="marketing-byline">Version 1.0</p>
+            <h3>Note</h3>
+            <ol>
+                <li>
+                    <p>The call trace web tool is only available from ISC22.1 (R26.12.01 and late release).</p>
+                </li>
+                <li>
+                    <p>If you download the PCAP files, IE or Firefox is recommended (Chrome doesn't support FTP).</p>
+                </li>
+            </ol>
+            <h3>Getting started</h3>
+            <ol>
+                <li>
+                    <p>Log in with your handle.</p>
+                    <img src="../assets/images/image001.png" alt="">
+                </li>
+                <li>
+                    <p>Input ISC lab CNFG IP address and criteria you want to trace.</p>
+                </li>
+                <li>
+                    <p>Click Start. The trace task is working.</p>
+                    <img src="../assets/images/image003.png" alt="">
+                </li>
+                <li>
+                    <p>If there are some calls matches the criteria you just set, the call will be traced.</p>
+                </li>
+                <li>
+                    <p>Click stop or wait it is expired, you can see the “download” if there is any result for the trace task.</p>
+                    <img src="../assets/images/image005.png" alt="">
+                </li>
+                <li>
+                    <p>Click “download” to get the PCAP trace file to local PC, it could be opened by Wireshark.</p>
+                    <img src="../assets/images/image007.png" alt="">
+                </li>
+            </ol>
 
-      <hr>
+            <h3>Features in V1.0:</h3>
+            <ol>
+                <li>
+                    <p>Multiple trace tasks could be started simultaneously.</p>
+                </li>
+                <li>
+                    <p>User can manage the trace tasks based on the login (handle).</p>
+                </li>
+                <li>
+                    <p>User can download the PCAP file to local PC directly if the trace has any result.</p>
+                </li>
+                <li>
+                    <p>Trace task can be restored when the web browser is re-opened again.</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+<hr>
 
-      <footer style="margin-left:20px;">
-        <p>&copy; Alcatel-Lucent 2012, supported by <a href="mailto:david.dn.dong@alcatel-lucent.com">David Dong</a> and <a href="mailto:sanping.zhang@alcatel-lucent.com">Calvin Zhang</a>.</p>
-      </footer>
+<footer style="margin-left:20px;">
+    <p>&copy; Alcatel-Lucent 2012, supported by <a href="mailto:david.dn.dong@alcatel-lucent.com">David Dong</a> and <a
+            href="mailto:sanping.zhang@alcatel-lucent.com">Calvin Zhang</a>.</p>
+</footer>
 
-    </div><!--/.fluid-container-->
+</div><!--/.fluid-container-->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-dropdown.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function(){
-          start_call.start();
-          start_call.stop();
-          $("#select01").click(function(){
-              var type = $(this).val();
-              if(type == 'TELNUM'){
-                  $("#macthdir").show();
-              }else{
-                  $("#macthdir").hide();
-              };
-          });
-          $("#logout").click(function(){
-              var cookie = start_call.createCookie();
-              if(cookie.check('handle')){
-                  cookie.del('handle');
-                  location.reload();
-              }
-          });
-          start_call.feedback();
-      })
-  </script>
-  </body>
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../assets/lib/twitter-bootstrap-v2.0.4/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        start_call.start();
+        start_call.stop();
+        $("#select01").click(function () {
+            var type = $(this).val();
+            if (type == 'TELNUM') {
+                $("#macthdir").show();
+            } else {
+                $("#macthdir").hide();
+            }
+            ;
+        });
+        $("#logout").click(function () {
+            var cookie = start_call.createCookie();
+            if (cookie.check('handle')) {
+                cookie.del('handle');
+                location.reload();
+            }
+        });
+        start_call.feedback();
+        $("#home").click(function(){
+            if($("#username").text()!='handle'){
+                $("#about-tab").slideUp();
+                $("#main-tab").slideDown();
+            }
+        });
+        $("#about").click(function(){
+            $("#main-tab").slideUp();
+            $("#about-tab").slideDown();
+        });
+    })
+</script>
+</body>
 </html>
