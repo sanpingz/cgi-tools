@@ -15,44 +15,35 @@
             "command-name":[
                 {
                     "type":"[hidden|text|select|checkbox|radio]",
-                    "label":"display",
+                    "Label":"display",
                     "[input|option]":{},
-                    "tip":"a simple description",
+                    "tip":"required|optional",
                     "rule":"[required|digits|number|string|url|ip]",
                     "children":[]
                 },
                 {
                     "type":"hidden",
-                    "input":[
-                        {
-                            "name":"d",
-                            "value":"hidden"
-                        }
-                    ]
+                    "value":"text"
                 },
                 {
                     "type":"text",
-                    "label":"parameter(text)",
-                    "input":{
-                        "name":"t",
-                        "value":"text"
-                    },
+                    "Label":"parameter(text)",
+                    "name":"-t",
+                    "value":"text",
                     "tip":"simple description for the option",
                     "rule":"string",
                     "children":[]
                 },
                 {
                     "type":"select",
-                    "label":"parameter(select)",
-                    "select":{
-                        "name":"s",
-                        "option":[
-                            {
-                                "label":"label",
-                                "value":"value"
-                            }
-                        ]
-                    },
+                    "Label":"parameter(select)",
+                    "name":"-s",
+                    "option":[
+                        {
+                            "label":"name",
+                            "value":"value"
+                        }
+                    ],
                     "tip":"simple description for the option",
                     "rule":"required",
                     "children":[]
@@ -60,24 +51,19 @@
                 {
                     "type":"checkbox",
                     "label":"parameter(checkbox)",
-                    "input":[
-                        {
-                            "label":"label",
-                            "name":"c",
-                            "value":"value"
-                        }
-                    ],
+                    "name":"-c",
+                    "value":"value",
                     "tip":"a simple description",
                     "rule":"",
                     "children":[]
                 },
                 {
                     "type":"radio",
-                    "label":"parameter(radio)",
+                    "Label":"parameter(radio)",
+                    "name":"",
                     "input":[
                         {
-                            "label":"label",
-                            "name":"s",
+                            "label":"s",
                             "value":"value"
                         }
                     ],

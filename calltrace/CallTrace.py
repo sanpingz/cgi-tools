@@ -7,6 +7,7 @@ from string import replace
 from JsonDB import simpleDB
 from FTPDownload import ftpDownload
 import FTPDownload
+from TimeFunc import FuncWrapper, Timeout
 
 BASE_DIR = abspath('data')
 hostParam = {'port':'9623'
@@ -89,15 +90,25 @@ class startCall:
             labip = str(self.labip)
             out = 'data/out'+ctid+'.xml'
             command =cmm+' -h '+labip+' -p '+hostParam['port']+' -i '+input+' -o '+out
+            func_obj = FuncWrapper(os.system, command)
             try:
-                cb = os.system(command)
-                if cb : self.status = 'Failure'
-                os.remove(input)
-                os.remove(out)
+                t = Timeout(5, func_obj)
+                timer = time.time()
+                t.run()
+                timer = time.time()-timer
+                #print timer
+                cb = func_obj.result
+                try:
+                    os.remove(input)
+                    os.remove(out)
+                except WindowsError: pass
             except OSError, Exception:
                 self.status = 'Failure'
                 self.error['startCommand'] = 'command execute error'
-                #print 'command execute error'
+                raise Exception("CMDError")
+                #cb = os.system(command)
+            else:
+                if cb : self.status = 'Failure'
     def saveData(self):
         user = {}
         param = {}
@@ -200,4 +211,4 @@ if __name__ == '__main__':
             'ctid':'',
             'handle':''
     }
-    stopCallTrace(stop)
+    #stopCallTrace(stop)

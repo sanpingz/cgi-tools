@@ -1,27 +1,16 @@
 {
-    "command":[
+    "cmd":[
         {
-            "label":"Number of registered IMS user query",
-            "value":"ims_cli"
+            "id":"ims_cli1",
+            "name":"ims_cli",
+            "value":"Number of registered IMS user query",
+            "description":""
         },
         {
-            "label":"Number of registered IMS user query -- 1",
-            "value":"ims_cli -- 1"
+            "id":"ims_cli2",
+            "name":"ims_cli",
+            "value":"Get Registry info",
+            "description":"The command mentioned above is used dump the total number of registries within the S-CSCF or P-CSCF, including both registered and unregistered user cases for an UE."
         }
-    ],
-    "parameter":{
-        "ims_cli":[
-            {
-                "type":"text",
-                "label":"parameter(text)",
-                "input":{
-                    "name":"t",
-                    "value":"text"
-                },
-                "tip":"simple description for the option",
-                "rule":"string",
-                "children":[]
-            }
-        ]
-    }
+    ]
 }

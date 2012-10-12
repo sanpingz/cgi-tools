@@ -1,15 +1,120 @@
 {
-    "parameter":[
+    "ims_cli1":[
+        {
+            "type":"hidden",
+            "value":"-a get -t reg -p cnt"
+        },
+        {
+            "type":"select",
+            "label":"Component Type",
+            "name":"-v",
+            "option":[
+                {
+                    "label":"P-CSCF",
+                    "value":"2"
+                },
+                {
+                    "label":"S-CSCF",
+                    "value":"3"
+                }
+            ]
+        },
         {
             "type":"text",
-            "label":"parameter(text)",
-            "input":{
-                "name":"-t",
-                "value":"text"
-            },
-            "tip":"simple description for the option",
-            "rule":"string",
-            "children":[]
+            "label":"IMS service external IP",
+            "name":"-e",
+            "value":"",
+            "tip":"optional",
+            "rule":""
+        },
+        {
+            "type":"checkbox",
+            "label":"Output position",
+            "name":"-o",
+            "value":"screen",
+            "rule":""
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP of IMS service",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ],
+            "rule":""
+        }
+    ],
+    "ims_cli2":[
+        {
+            "type":"hidden",
+            "value":"-a get -t reg"
+        },
+        {
+            "type":"select",
+            "label":"URI options",
+            "name":"-p",
+            "option":[
+                {
+                    "label":"Private URI",
+                    "value":"privid"
+                },
+                {
+                    "label":"Public URI",
+                    "value":"puid"
+                }
+            ],
+            "rule":"required"
+        },
+        {
+            "type":"text",
+            "label":"Private ID or PUID URI",
+            "name":"-s",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"select",
+            "label":"Component Type",
+            "name":"-v",
+            "option":[
+                {
+                    "label":"S-CSCF",
+                    "value":"3"
+                },
+                {
+                    "label":"P-CSCF",
+                    "value":"2"
+                }
+            ]
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP of IMS service",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
         }
     ]
 }

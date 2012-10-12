@@ -2,28 +2,51 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8">
-    <title>Alcatel-Lucent IMS Command Assistant</title>
+    <title>ALU IMS Command Assistant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Call Trace">
     <meta name="author" content="Calvin Zhang">
-
     <!-- Le styles -->
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {padding-top: 60px;padding-bottom: 40px;}
+      label {font-weight: 500;}
       .sidebar-nav {padding: 9px 0;}
       .two-row {padding-top: 30px;padding-left: 80px;padding-right: 100px;}
-     .add-text span {color: red;font-weight: bold;}
-     .tips {margin-left: 30px;margin-right: 30px;}
-     label {font-weight: 500;}
+      .add-text span {color: red;font-weight: bold;}
+      .tips {margin-left: 30px;margin-right: 30px;}
+      .text-tip {color: red;font-weight: bold;margin-left: 8px}
+      .group {
+          border: 1px solid #dddddd;
+          border-collapse: separate;
+          *border-collapse: collapsed;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          padding-left: 10px;
+      }
+      .option-box {
+          min-height: 20px;
+          padding: 19px;
+          margin-bottom: 20px;
+          border: 1px solid #eee;
+          border: 1px solid rgba(0, 0, 0, 0.05);
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+      }
+      #cmd-field { width:100%; font-size: 15px; font-weight: bold; color: green; }
     </style>
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../assets/lib/twitter-bootstrap-v2.0.4/ico/favicon.ico">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
   </head>
   <body>
     <div class="navbar navbar-fixed-top">
@@ -35,17 +58,10 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="#">IMS Command Assistant</a>
-          <div class="btn-group pull-right">
-            <a class="btn dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
-              <i class="icon-user"></i> Username
-              <span class="caret"></span>
-            </a>
-          </div>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="command%20assistant_offline.rar">Download</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -53,8 +69,9 @@
     </div>
 
     <div class="container-fluid">
-      <div class="row-fluid">
+      <div class="row-fluid" style="min-height: 440px;">
         <div class="two-row">
+        <div class="span12">
         <div class="span6">
           <form class="form-horizontal" id="command_form">
               <fieldset>
@@ -62,70 +79,43 @@
                     <h4 class="control-label" for="select01" style="width:80px;">Command</h4>
                     <div class="controls" style="margin-left:90px;">
                         <select id="command-select" name="mode" style="width:280px;">
-                            <option> ---- choose one ---- </option>
+                            <option value=""> ---- choose one ---- </option>
                         </select>
                     </div>
                 </div>
               </fieldset>
           </form>
-            <div class="tips">
-                <h4>Tips: </h4>
-                <p>Fill in the right command options(<code>(*)</code> is required), and press the button, then the command will be in your clipboard.</p>
-            </div>
-          <div class="form-actions" style="background-color: #FFF; padding-left: 100px;">
-              <button type="button" class="btn btn-primary btn-large" style="width:200px;"> Generate and Copy </button>
-              <span id="ajax_load" style="margin-left: 20px; display: none;"><img alt="loading..." src="../assets/images/ajax_blue.gif" /></span>
-          </div>
+
+        <div class="option-box" id="option-box" style="display: none;">
+            <h4 class="control-label" for="prependedInput">Command Option</h4>
+            <hr style="margin: 6px;"/>
+            <form class="form-vertical" id="option-form">
+                <fieldset id="option-field">
+                </fieldset>
+            </form>
+        </div>
+
         </div><!--/row-->
-        <div class="span6">
-            <div class="well">
-                <h4 class="control-label" for="prependedInput">Command Option</h4>
-                <hr style="margin: 6px;"/>
-                <form class="form-vertical" id="form-option">
-                    <fieldset>
-                    <div class="control-group">
-                        <label class="control-label" for="select01">Component Type </label>
-                        <div class="controls">
-                            <select id="select01">
-                                <option>----select one----</option>
-                                <option value="2">P-CSCF</option>
-                                <option value="3">S-CSCF</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label" for="input01">IMS service external IP</label>
-                        <div class="controls">
-                            <input type="text" id="input01">
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label">Address</label>
-                        <div class="controls">
-                            <label class="radio">
-                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                    ims
-                            </label>
-                            <label class="radio">
-                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                Internal Fixed IP of IMS service
-                                <input type="text" name="optionsRadios" id="optionsRadios2" value="option2">
-                            </label>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label" for="optionsCheckbox">Output position</label>
-                        <div class="controls">
-                            <label class="checkbox">
-                                <input type="checkbox" id="optionsCheckbox" value="">
-                                screen
-                            </label>
-                        </div>
-                    </div>
-                    </fieldset>
-                </form>
+        <div class="span6" id="cmd-description" style="display:none">
+            <div class="tips">
+                <h4>Description: </h4>
+                <p id="cmd-text"></p>
             </div>
         </div>
+        <div class="span6">
+            <div class="tips">
+                <h4>Tips: </h4>
+                <p>Fill in the right command options(<code>(*)</code> is required, and press the button, then the command will be generated.</p>
+            </div>
+        </div>
+        <div class="span6" style="float:right;position:relative;top:20px;">
+            <div class="form-actions" style="background-color: #FFF; padding-left: 100px;">
+                <button id="gac" type="button" class="btn btn-primary btn-large" style="width:180px;"> Generate </button>
+                <span style="color: green;margin-left: 10px;font-weight: bold;"></span>
+                <span id="ajax_load" style="margin-left: 20px; display: none;"><img alt="loading..." src="../assets/images/ajax_blue.gif" /></span>
+            </div>
+        </div>
+        </div> <!--/span12-->
         <div class="span12">
             <div id="tabs-box" style="display:none;">
                 <h4>Command Box</h4>
@@ -134,15 +124,16 @@
             </div>
             <div>
                 <h4>Command Preview</h4>
-                <textarea rows="2" cols="100" style="width:100%;"></textarea>
+                <textarea id="cmd-field" rows="2" cols="100"></textarea>
             </div>
         </div>
         </div>
       </div><!--/row-->
       <hr>
-      <footer>
-        <p>&copy; Alcatel-Lucent 2012 </p>
-      </footer>
+        <footer style="margin-left:20px;">
+            <p>&copy; Alcatel-Lucent 2012, supported by <a href="mailto:david.dn.dong@alcatel-lucent.com">David Dong</a> and <a
+                    href="mailto:sanping.zhang@alcatel-lucent.com">Calvin Zhang</a>.</p>
+        </footer>
 
     </div><!--/.fluid-container-->
     <!-- Le javascript
@@ -154,6 +145,8 @@
         $(document).ready(function(){
             cz_command.init();
             cz_command.change();
+            cz_command.radio();
+            cz_command.gac();
         });
     </script>
   </body>
