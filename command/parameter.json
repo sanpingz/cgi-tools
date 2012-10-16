@@ -2,36 +2,22 @@
     "ims_cli1":[
         {
             "type":"hidden",
-            "value":"-a get -t reg -p cnt"
-        },
-        {
-            "type":"select",
-            "label":"Component Type",
-            "name":"-v",
-            "option":[
-                {
-                    "label":"P-CSCF",
-                    "value":"2"
-                },
-                {
-                    "label":"S-CSCF",
-                    "value":"3"
-                }
-            ]
+            "value":"-a get -t vg"
         },
         {
             "type":"text",
-            "label":"IMS service external IP",
-            "name":"-e",
+            "label":"Virtual group number (0-1024)",
+            "name":"-v",
             "value":"",
-            "tip":"optional",
-            "rule":""
+            "tip":"required",
+            "rule":"required"
         },
         {
-            "type":"checkbox",
-            "label":"Output position",
-            "name":"-o",
-            "value":"screen",
+            "type":"text",
+            "label":"Virtual groups number that need to be dumped",
+            "name":"-v1",
+            "value":"",
+            "tip":"",
             "rule":""
         },
         {
@@ -46,15 +32,256 @@
                     "checked":true
                 },
                 {
-                    "label":"Internal Fixed IP of IMS service",
+                    "label":"Fixed Internal IP",
                     "value":"-i",
                     "ref":"@ref"
                 }
-            ],
-            "rule":""
+            ]
         }
     ],
-    "ims_cli2":[
+    "ims_cli2_0":[
+        {
+            "type":"hidden",
+            "value":"-a set -t sip_mon"
+        },
+        {
+            "type":"select",
+            "label":"Call trace criteria",
+            "name":"-a",
+            "option":[
+                {
+                    "label":"SIP To Header",
+                    "value":"toheader"
+                },
+                {
+                    "label":"SIP From Header",
+                    "value":"fromheader"
+                },
+                {
+                    "label":"SIP P_Asserted_Identity",
+                    "value":"PAIheader"
+                },
+                {
+                    "label":"SIP Request URI",
+                    "value":"requri"
+                },
+                {
+                    "label":"Getaway Identifier",
+                    "value":"mid"
+                },
+                {
+                    "label":"Telephone number",
+                    "value":"telnum"
+                }
+            ]
+        },
+        {
+            "type":"text",
+            "label":"Criteria string",
+            "name":"-s",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"select",
+            "label":"The component to be traced",
+            "name":"-v",
+            "option":[
+                {
+                    "label":"all components",
+                    "value":"0"
+                },
+                {
+                    "label":"ICSCF",
+                    "value":"1"
+                },
+                {
+                    "label":"PCSCF",
+                    "value":"2"
+                },
+                {
+                    "label":"SCSCF",
+                    "value":"3"
+                },
+                {
+                    "label":"BGCF",
+                    "value":"4"
+                },
+                {
+                    "label":"ECSCF",
+                    "value":"10"
+                },
+                {
+                    "label":"IBCF",
+                    "value":"19"
+                },
+                {
+                    "label":"GWF",
+                    "value":"24"
+                },
+                {
+                    "label":"iAGCF",
+                    "value":"26"
+                },
+                {
+                    "label":"CANM",
+                    "value":"28"
+                },
+                {
+                    "label":"H248 Proxy",
+                    "value":"29"
+                }
+            ]
+        },
+        {
+            "type":"select",
+            "label":"Trace ID",
+            "name":"-v1",
+            "option":[
+                {
+                    "label":"all traces",
+                    "value":"0"
+                },
+                {
+                    "label":"1",
+                    "value":"1"
+                },
+                {
+                    "label":"2",
+                    "value":"2"
+                },
+                {
+                    "label":"3",
+                    "value":"3"
+                },
+                {
+                    "label":"4",
+                    "value":"4"
+                },
+                {
+                    "label":"5",
+                    "value":"5"
+                },
+                {
+                    "label":"6",
+                    "value":"6"
+                }
+            ]
+        },
+        {
+            "type":"text",
+            "label":"Duration (1-60 minutes)",
+            "name":"-T",
+            "value":"30",
+            "tip":"",
+            "rule":""
+        },
+        {
+            "type":"text",
+            "label":"Substring (1-256)",
+            "name":"-p1 substring -s",
+            "value":"",
+            "rule":""
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli2_1":[
+        {
+            "type":"select",
+            "label":"Action",
+            "name":"-a",
+            "option":[
+                {
+                    "label":"Initialize call trace",
+                    "value":"clr"
+                },
+                {
+                    "label":"Enable call trace",
+                    "value":"alw"
+                },
+                {
+                    "label":"Disable call trace",
+                    "value":"inh"
+                },
+                {
+                    "label":"Get call trace status",
+                    "value":"get"
+                }
+            ]
+        },
+        {
+            "type":"hidden",
+            "value":"-t sip_mon"
+        },
+        {
+            "type":"select",
+            "label":"Trace ID",
+            "name":"-v1",
+            "option":[
+                {
+                    "label":"1",
+                    "value":"1"
+                },
+                {
+                    "label":"2",
+                    "value":"2"
+                },
+                {
+                    "label":"3",
+                    "value":"3"
+                },
+                {
+                    "label":"4",
+                    "value":"4"
+                },
+                {
+                    "label":"5",
+                    "value":"5"
+                },
+                {
+                    "label":"6",
+                    "value":"6"
+                }
+            ]
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli3":[
         {
             "type":"hidden",
             "value":"-a get -t reg"
@@ -110,7 +337,598 @@
                     "checked":true
                 },
                 {
-                    "label":"Internal Fixed IP of IMS service",
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli4":[
+        {
+            "type":"hidden",
+            "value":"-a get -t sgcf -p cnt -s za"
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli5":[
+        {
+            "type":"hidden",
+            "value":"-a get -t ueaddr -p privid"
+        },
+        {
+            "type":"text",
+            "label":"Private ID",
+            "name":"-s",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"checkbox",
+            "label":"Output position",
+            "name":"-o",
+            "value":"screen",
+            "rule":""
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli6":[
+        {
+            "type":"hidden",
+            "value":"-a get -t reg -p cnt"
+        },
+        {
+            "type":"select",
+            "label":"Component Type",
+            "name":"-v",
+            "option":[
+                {
+                    "label":"P-CSCF",
+                    "value":"2"
+                },
+                {
+                    "label":"S-CSCF",
+                    "value":"3"
+                }
+            ]
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ],
+            "rule":""
+        }
+    ],
+    "ims_cli7":[
+        {
+            "type":"hidden",
+            "value":"-a clr -t reg -p privid"
+        },
+        {
+            "type":"text",
+            "label":"Private ID",
+            "name":"-s",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"checkbox",
+            "label":"Output position",
+            "name":"-o",
+            "value":"screen",
+            "rule":""
+        },
+        {
+            "type":"select",
+            "label":"Component Type",
+            "name":"-v",
+            "option":[
+                {
+                    "label":"S-CSCF",
+                    "value":"3"
+                },
+                {
+                    "label":"P-CSCF",
+                    "value":"2"
+                }
+            ]
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli8":[
+        {
+            "type":"hidden",
+            "value":"-a get -t call"
+        },
+        {
+            "type":"select",
+            "label":"URI Type",
+            "name":"-p",
+            "option":[
+                {
+                    "label":"private URI",
+                    "value":"privid"
+                },
+                {
+                    "label":"public URI",
+                    "value":"puid"
+                }
+            ]
+        },
+        {
+            "type":"text",
+            "label":"Private ID or public ID",
+            "name":"-s",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"select",
+            "label":"Component Type",
+            "name":"-v",
+            "option":[
+                {
+                    "label":"S-CSCF",
+                    "value":"3"
+                },
+                {
+                    "label":"P-CSCF",
+                    "value":"2"
+                }
+            ]
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli9":[
+        {
+            "type":"hidden",
+            "value":"-a clr -t call"
+        },
+        {
+            "type":"select",
+            "label":"URI Type",
+            "name":"-p",
+            "option":[
+                {
+                    "label":"private URI",
+                    "value":"privid"
+                },
+                {
+                    "label":"public URI",
+                    "value":"puid"
+                },
+                {
+                    "label":"call ID",
+                    "value":"callid"
+                }
+            ]
+        },
+        {
+            "type":"text",
+            "label":"Private ID, public ID or call ID",
+            "name":"-s",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"checkbox",
+            "label":"Output position",
+            "name":"-o",
+            "value":"screen",
+            "rule":""
+        },
+        {
+            "type":"select",
+            "label":"Component Type",
+            "name":"-v",
+            "option":[
+                {
+                    "label":"S-CSCF",
+                    "value":"3"
+                },
+                {
+                    "label":"P-CSCF",
+                    "value":"2"
+                }
+            ]
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli10":[
+        {
+            "type":"hidden",
+            "value":"-a set -t bephsync"
+        },
+        {
+            "type":"checkbox",
+            "label":"First wiping out the FEPH flow data",
+            "name":"-d",
+            "value":"clear",
+            "rule":""
+        },
+        {
+            "type":"hidden",
+            "value":"-n feph"
+        }
+    ],
+    "ims_cli11":[
+        {
+            "type":"select",
+            "label":"Action",
+            "name":"-a",
+            "option":[
+                {
+                    "label":"set the Recover flag",
+                    "value":"set"
+                },
+                {
+                    "label":"get the Recover flag",
+                    "value":"get"
+                },
+                {
+                    "label":"clear the Recover flag",
+                    "value":"clr"
+                }
+            ]
+        },
+        {
+            "type":"hidden",
+            "value":"-t rec -v pcscf"
+        },
+        {
+            "type":"text",
+            "label":"Recovery percentage",
+            "name":"-p",
+            "value":"100",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"Send to all",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Send to one",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ],
+            "rule":""
+        }
+    ],
+    "ims_cli12":[
+        {
+            "type":"select",
+            "label":"Action",
+            "name":"-a",
+            "option":[
+                {
+                    "label":"set the Recover flag",
+                    "value":"set"
+                },
+                {
+                    "label":"get the Recover flag",
+                    "value":"get"
+                },
+                {
+                    "label":"clear the Recover flag",
+                    "value":"clr"
+                }
+            ]
+        },
+        {
+            "type":"hidden",
+            "value":"-t rec -v scscf"
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"Send to all",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Send to one",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli13":[
+        {
+            "type":"select",
+            "label":"Action",
+            "name":"-a",
+            "option":[
+                {
+                    "label":"set the Recover flag",
+                    "value":"set"
+                },
+                {
+                    "label":"get the Recover flag",
+                    "value":"get"
+                },
+                {
+                    "label":"clear the Recover flag",
+                    "value":"clr"
+                }
+            ]
+        },
+        {
+            "type":"hidden",
+            "value":"-t rec"
+        },
+        {
+            "type":"text",
+            "label":"Duration (10-4320 minutes)",
+            "name":"-T",
+            "value":"30",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"text",
+            "label":"Rejection percentage",
+            "name":"-p",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"Send to all",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Send to one",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ],
+            "rule":""
+        }
+    ],
+    "ims_cli14_0":[
+        {
+            "type":"hidden",
+            "value":"-a get -t sip_hb"
+        },
+        {
+            "type":"checkbox",
+            "label":"Output position",
+            "name":"-o",
+            "value":"screen",
+            "rule":""
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
+                    "value":"-i",
+                    "ref":"@ref"
+                }
+            ]
+        }
+    ],
+    "ims_cli14_1":[
+        {
+            "type":"select",
+            "label":"SLM functions",
+            "name":"-a",
+            "option":[
+                {
+                    "label":"quarantine list deletion",
+                    "value":"clr"
+                },
+                {
+                    "label":"manual HB request",
+                    "value":"set"
+                }
+            ]
+        },
+        {
+            "type":"hidden",
+            "value":"-t sip_hb -p addr"
+        },
+        {
+            "type":"text",
+            "label":"Destination Address",
+            "name":"-s",
+            "value":"",
+            "tip":"required",
+            "rule":"required"
+        },
+        {
+            "type":"checkbox",
+            "label":"Specify transport",
+            "name":"-p1",
+            "value":"transport",
+            "rule":""
+        },
+        {
+            "type":"select",
+            "label":"Transport",
+            "name":"-s",
+            "option":[
+                {
+                    "label":"all transport types",
+                    "value":""
+                },
+                {
+                    "label":"tcp",
+                    "value":"tcp"
+                },
+                {
+                    "label":"udp",
+                    "value":"udp"
+                },
+                {
+                    "label":"sctp",
+                    "value":"sctp"
+                },
+                {
+                    "label":"icmp",
+                    "value":"icmp"
+                }
+            ]
+        },
+        {
+            "type":"text",
+            "label":"Port",
+            "name":"-v",
+            "value":"",
+            "tip":"",
+            "rule":""
+        },
+        {
+            "type":"checkbox",
+            "label":"Output position",
+            "name":"-o",
+            "value":"screen",
+            "rule":""
+        },
+        {
+            "type":"radio",
+            "label":"Address",
+            "name":"radio",
+            "input":[
+                {
+                    "label":"ims",
+                    "value":"-n",
+                    "ref":"ims",
+                    "checked":true
+                },
+                {
+                    "label":"Internal Fixed IP",
                     "value":"-i",
                     "ref":"@ref"
                 }

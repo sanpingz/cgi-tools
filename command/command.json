@@ -3,14 +3,98 @@
         {
             "id":"ims_cli1",
             "name":"ims_cli",
-            "value":"Number of registered IMS user query",
-            "description":""
+            "value":"Dump virtual group data",
+            "description":"The ims_cli command is used to dump data of virtual group."
         },
         {
-            "id":"ims_cli2",
+            "id":"ims_cli2_0",
             "name":"ims_cli",
-            "value":"Get Registry info",
-            "description":"The command mentioned above is used dump the total number of registries within the S-CSCF or P-CSCF, including both registered and unregistered user cases for an UE."
+            "value":"Set Call Trace Criteria",
+            "description":"Based on the criteria of SIP message content including To, From, R-URI, P-Asserted-ID to trace SIP messages received or sent from/to the ISC components, including P/I/S-CSCF, BGCF, E-CSCF, IBCF, IMS-GWF and iAGCF. If the initial SIP message of a call matches the criteria, the call will be traced. The trace output is in protocolmonitor.log."
+        },
+        {
+            "id":"ims_cli2_1",
+            "name":"ims_cli",
+            "value":"Stop and Query Call Trace",
+            "description":"Based on the criteria of SIP message content including To, From, R-URI, P-Asserted-ID to trace SIP messages received or sent from/to the ISC components, including P/I/S-CSCF, BGCF, E-CSCF, IBCF, IMS-GWF and iAGCF. If the initial SIP message of a call matches the criteria, the call will be traced. The trace output is in protocolmonitor.log."
+        },
+        {
+            "id":"ims_cli3",
+            "name":"ims_cli",
+            "value":"IMS registry query",
+            "description":"Query IMS user’s registry information by using the Public ID or Private ID and get the information from protocolmonitor.log."
+        },
+        {
+            "id":"ims_cli4",
+            "name":"ims_cli",
+            "value":"IMS Security Gateway Control Function",
+            "description":"Dump the SGCF number of IPsec SA rules in use and provide it in protocolmonitor.log."
+        },
+        {
+            "id":"ims_cli5",
+            "name":"ims_cli",
+            "value":"IMS UE address query",
+            "description":"The IMS UE address query is the IMS UE IP address:port, and IP address of the SBC serving the IMS UE (if available). The output is in protocolmonitor.log or the screen based on setting."
+        },
+        {
+            "id":"ims_cli6",
+            "name":"ims_cli",
+            "value":"Dump IMS UE registration",
+            "description":"Use the ims_cli command to dump the total number of registries within the S-CSCF, including both registered and unregistered user cases for an UE."
+        },
+        {
+            "id":"ims_cli7",
+            "name":"ims_cli",
+            "value":"IMS UE de-registration",
+            "description":"Use the ims_cli command is to de-register an UE."
+        },
+        {
+            "id":"ims_cli8",
+            "name":"ims_cli",
+            "value":"IMS call status query",
+            "description":"Use the im_cli command to query the status of a call using the Private ID or Public ID."
+        },
+        {
+            "id":"ims_cli9",
+            "name":"ims_cli",
+            "value":"IMS call release",
+            "description":"Use the command to release active calls using the Private ID or Public ID along with the call ID."
+        },
+        {
+            "id":"ims_cli10",
+            "name":"ims_cli",
+            "value":"BEPH manual Sync",
+            "description":"BEPH manual sync request is invoked in order to repair or recover FEPH flow data without having to duplex fail FEPHs (autonomous BEPH sync takes place on the occasion of FEPH duplex fail)."
+        },
+        {
+            "id":"ims_cli11",
+            "name":"ims_cli",
+            "value":"P-CSCF switch-back",
+            "description":"When the original P-CSCF is recovered to in-service state, use the im_cli command to inform the IBC to use the original P-CSCF."
+        },
+        {
+            "id":"ims_cli12",
+            "name":"ims_cli",
+            "value":"S-CSCF switch-back",
+            "description":"Use the im_cli command to inform the I-CSCF to use the original S-CSCF."
+        },
+        {
+            "id":"ims_cli13",
+            "name":"ims_cli",
+            "value":"3GPP IBC switch-back",
+            "description":"When the primary IBC is recovered to in-service state, use the im_cli command to inform the secondary IBC to reject new registration with a rejection percentage to avoid registration storm."
+        },
+        {
+            "id":"ims_cli14_0",
+            "name":"ims_cli",
+            "value":"SIP Link Quarantine List Query",
+            "description":"A capability is provided for the operator to query current linkset, remove a linkset that is currently on the quarantine list and send manual heartbeat through the IMS CLI. The IMS CLI supports the Internal Quarantine List query control option as follows."
+        },
+        {
+            "id":"ims_cli14_1",
+            "name":"ims_cli",
+            "value":"SIP Link Manual HB and Quarantine List Deletion",
+            "description":"A capability is provided for the operator to query current linkset, remove a linkset that is currently on the quarantine list and send manual heartbeat through the IMS CLI. The IMS CLI supports the Internal Quarantine List query control option as follows."
         }
     ]
 }

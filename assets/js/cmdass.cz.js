@@ -157,7 +157,7 @@ cz_command = {
         var field = $("#option-field");
         var selected = $("#command-select").find('option:selected');
         var cmd = selected.attr('name');
-        var hidden = field.find('input[type=hidden]').first();
+        var hidden = field.find('input[type=hidden]');
         var text = field.find('input[type=text]');
         var select = field.find('select');
         var checkbox = field.find('input[type=checkbox]');
@@ -166,7 +166,9 @@ cz_command = {
         var array = new Array();
         var flag = true;
         if (hidden.length > 0) {
-            array[$(hidden).attr('no')] = hidden.val();
+            $(hidden).each(function (i, e){
+                array[$(e).attr('no')] = e.value;
+            });
         }
         if (text.length > 0) {
             $(text).each(function (i, e) {
@@ -174,7 +176,7 @@ cz_command = {
                     array[$(e).attr('no')] = e.name + ' ' + e.value;
                     text.parent('div').parent('div').removeClass( "warning" );
                 }else if($(e).attr('rule') == 'required'){
-                    text.parent('div').parent('div').addClass( "warning" );
+                    $(e).parent('div').parent('div').addClass( "warning" );
                     flag = false;
                 }
             });
