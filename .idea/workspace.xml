@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/command assistant_offline.rar" afterPath="$PROJECT_DIR$/command/command assistant_offline.rar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/cmdass.cz.js" afterPath="$PROJECT_DIR$/assets/js/cmdass.cz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/command.json" afterPath="$PROJECT_DIR$/command/command.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/parameter.json" afterPath="$PROJECT_DIR$/command/parameter.json" />
     </list>
     <ignored path="calltrace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +30,35 @@
     <favorites_list name="calltrace" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="26" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmdass.cz.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/cmdass.cz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="12" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.5830325">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameter.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/parameter.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="16" selection-start="17" selection-end="18" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -63,17 +89,17 @@
         <option value="$PROJECT_DIR$/calltrace/index.html" />
         <option value="$PROJECT_DIR$/command/index[bak].html" />
         <option value="$PROJECT_DIR$/command/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/cmdass.cz.js" />
         <option value="$PROJECT_DIR$/command/command.json" />
         <option value="$PROJECT_DIR$/command/parameter.json" />
+        <option value="$PROJECT_DIR$/assets/js/cmdass.cz.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="54" />
-    <option name="width" value="824" />
-    <option name="height" value="596" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1032" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -101,6 +127,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -133,14 +169,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calltrace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calltrace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calltrace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -150,11 +222,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -400,14 +473,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="54" width="824" height="596" extended-state="0" />
+    <frame x="-4" y="-4" width="1032" height="746" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993865" sideWeight="0.33445945" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24285714" sideWeight="0.4864865" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24846625" sideWeight="0.4864865" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18681319" sideWeight="0.5016892" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27195945" sideWeight="0.51329243" order="0" side_tool="true" content_ui="tabs" />
@@ -540,24 +613,30 @@
         <state line="1122" column="15" selection-start="16256" selection-end="16256" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="149" selection-end="149" vertical-scroll-proportion="-2.6153846" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/parameter.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="483" column="10" selection-start="12117" selection-end="12117" vertical-scroll-proportion="1.5396825" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command/command.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="41" selection-start="3816" selection-end="3816" vertical-scroll-proportion="0.18592058" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/command/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/parameter.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="17" selection-end="18" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/cmdass.cz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="37" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.03068592" />
+        <state line="40" column="12" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.5830325">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

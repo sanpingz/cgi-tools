@@ -37,7 +37,7 @@ cz_command = {
                 });
                 $.getJSON('parameter.json', function (data) {
                     if (data.toString().length > 0) {
-                        var param = data[value];
+                        var param = data.hasOwnProperty(value)?data[value]:{};
                         var doc = '';
                         for (var i = 0; i < param.length; i++) {
                             doc += cz_command.generate(param[i],i);
