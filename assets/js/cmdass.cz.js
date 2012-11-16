@@ -23,6 +23,8 @@ cz_command = {
             var value = $(this).val();
             $("#cmd-description").hide();
             $("#cmd-text").text('');
+            $("#log-tab").hide();
+            $("#log-box").hide();
             if (value != '') {
                 $.getJSON('command.json', function (data) {
                     if (data.toString().length > 0) {
@@ -150,6 +152,8 @@ cz_command = {
             if (name != '' && text!='') {
                 cp.text(text);
                 cz_command.copyToClipboard(text);
+                $("#log-tab").show();
+                $("#log-field").text("");
             }
         });
     },

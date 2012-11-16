@@ -15,6 +15,9 @@
       <w>fieldset</w>
       <w>filelist</w>
       <w>filepath</w>
+      <w>fname</w>
+      <w>fsize</w>
+      <w>ftype</w>
       <w>labip</w>
       <w>lucent</w>
       <w>mailto</w>

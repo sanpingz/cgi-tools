@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8">
-    <title>ALU IMS Command Assistant</title>
+    <title>IMS Command Assistant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Call Trace">
     <meta name="author" content="Calvin Zhang">
@@ -39,6 +39,7 @@
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
       }
       #cmd-field { width:100%; font-size: 15px; font-weight: bold; color: green; }
+      #log-field { width:100%; font-size: 14px; font-weight: normal; color: #000000; }
     </style>
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -57,7 +58,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">IMS Command Assistant</a>
+          <a class="brand" href="#">ALU IMS Command Assistant</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -123,15 +124,38 @@
                 </ul>
             </div>
             <div>
-                <h4>Command Preview</h4>
+                <h4 class="control-label" for="prependedInput">Command Preview</h4>
                 <textarea id="cmd-field" rows="2" cols="100"></textarea>
+            </div>
+        </div>
+        <div id="log-tab" class="span12" style="display:none;">
+            <div class="span10" style="width: 100%;">
+                <h4 class="control-label" for="prependedInput">Run Command on LCP</h4>
+                <hr style="margin: 0;"/>
+            </div>
+            <div class="span6" style="margin-left: 0;">
+                <div id="cnfg-div" class="control-group group">
+                    <label class="control-label">CNFG External Floating IP Address</label>
+                    <div class="controls">
+                        <input id="cnfgIP" type="text" value="" name="cnfgIP">
+                        <span id="cnfg-msg" class="text-tip"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="span6">
+                <button id="run" type="button" class="btn btn-primary btn-large" style="width:180px;margin-left: 80px;"> Run </button>
+                <span id="loading" style="margin-left: 20px; display: none;"><img alt="loading..." src="../assets/images/ajax_blue.gif" /><span style="color: green;margin-left: 10px;font-weight: bold;"> waiting </span></span>
+            </div>
+            <div id="log-box" class="span10" style="margin-left: 0; width: 100%; display:none;">
+                <h4 class="control-label" for="prependedInput">Command Result</h4>
+                <textarea id="log-field" rows="12" cols="100"></textarea>
             </div>
         </div>
         </div>
       </div><!--/row-->
       <hr>
         <footer style="margin-left:20px;">
-            <p>&copy; Alcatel-Lucent 2012, supported by <a href="mailto:david.dn.dong@alcatel-lucent.com">David Dong</a> and <a
+            <p>&copy; Alcatel-Lucent 2012, version 2.0, supported by <a href="mailto:david.dn.dong@alcatel-lucent.com">David Dong</a> and <a
                     href="mailto:sanping.zhang@alcatel-lucent.com">Calvin Zhang</a>.</p>
         </footer>
 
@@ -147,6 +171,31 @@
             cz_command.change();
             cz_command.radio();
             cz_command.gac();
+            $("#run").click(function(){
+                $("#log-box").hide();
+                $("#log-field").text("");
+                $("#loading").show();
+                var cmdstr = $("#cmd-field").text();
+                var cnfgIP = $("#cnfgIP").val();
+                if(cnfgIP!=""){
+                    var data = 'cnfgIP='+cnfgIP+'&cmdstr='+cmdstr;
+                    $.post('bin/autocmd.cgi', data, function(data){
+                        $("#log-field").text(data);
+                        $("#log-box").show();
+                        $("#loading").hide();
+                    });
+                }else{
+                    var msg = $("#cnfg-msg");
+                    var pnt = msg.parent('div').parent('div');
+                    msg.text("required");
+                    pnt.addClass("warning");
+                    msg.show().delay(3000).hide(function(){
+                        pnt.removeClass("warning");
+                        msg.text("");
+                    });
+                    $("#loading").hide();
+                }
+            });
         });
     </script>
   </body>
