@@ -1,0 +1,10 @@
+<Request Action="STARTCT">
+                <CallTraceCli>
+                    <CTID>6</CTID>
+                    <TELNUMMATCH>
+                        <TELNUM>18753251981</TELNUM>
+                        <MATCHDIR>Right</MATCHDIR>
+                    </TELNUMMATCH>
+                    <DURATION>30</DURATION>
+                </CallTraceCli>
+            </Request>

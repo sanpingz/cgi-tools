@@ -3,7 +3,7 @@ __author__ = 'sanpingz'
 
 from os.path import join, abspath
 import sys, os
-import pickle
+import pickle, shutil
 
 BASE_DIR = ''
 config = {'dirname':'data',
@@ -11,6 +11,10 @@ config = {'dirname':'data',
           'ctname':'ctid.dat'
 }
 def init():
+    if os.path.exists(config['dirname']):
+        shutil.rmtree(config['dirname'])
+    if os.path.exists(config['logname']):
+        shutil.rmtree(config['logname'])
     try:
         os.mkdir(config['dirname'])
         os.mkdir(config['logname'])

@@ -22,7 +22,7 @@ class startCall:
         self.callid = param['callid']
         self.matchdir = param.get('matchdir')
         self.handle = param.get('handle')
-    def __setTemplate__(self):
+    def __setTemplate(self):
         template = ''
         if 'TELNUM' == self.mode:
             template = '''<Request Action="STARTCT">
@@ -44,7 +44,7 @@ class startCall:
                 </CallTraceCli>
             </Request>'''
         return template
-    def __getCtid__(self):
+    def __getCtid(self):
         ctid = 0
         filepath = join(BASE_DIR, 'ctid.dat')
         f = open(filepath, 'rb')
@@ -52,9 +52,9 @@ class startCall:
             ctid = pickle.load(f)
         finally: f.close()
         return ctid
-    def __setCtid__(self):
+    def __setCtid(self):
         filepath = join(BASE_DIR, 'ctid.dat')
-        ctid = self.__getCtid__()+1
+        ctid = self.__getCtid()+1
         if ctid >= 16777216:
             ctid = 0
         self.ctid = str(ctid)
@@ -63,10 +63,10 @@ class startCall:
             pickle.dump(ctid, f)
         finally: f.close()
     def createXML(self):
-        self.__setCtid__()
+        self.__setCtid()
         filename = 'start'+str(self.ctid)+'.xml'
         filepath = join(BASE_DIR, filename)
-        template = self.__setTemplate__()
+        template = self.__setTemplate()
         template = replace(template, '(ctid)', self.ctid)
         template = replace(template, '(mode)', self.mode)
         template = replace(template, '(callid)', self.callid)

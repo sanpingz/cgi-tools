@@ -12,7 +12,13 @@ start_call={
             dur = $("#duration");
         function updateTips(d, t) {
             d.addClass( "warning" );
-            d.find("p").first().text( t );
+            var label = d.find("p").first();
+            label.text( t );
+            if(t=='OK'){
+                label.addClass('label label-success ok-block');
+            }else{
+                label.removeClass('label label-success ok-block');
+            }
         }
         function checkInt(d, t, max){
             var s = d.find('input').first();
@@ -85,10 +91,17 @@ start_call={
                 var handle = $("#username").text();
                 data += '&handle='+handle;
                 $.post(uri, data, function(data){
-                    $("tbody").append(data);
+                    var label = $("#cb-label");
+                    if (data.match(/NotCompleted/g) || data==''){
+                        label.text('timeout, confirm your CNFG IP, and try again.');
+                        label.addClass('label-important');
+                        label.fadeIn().delay(5000).fadeOut(function(){ label.removeClass('label-important') });
+                    }else{
+                        $("tbody").append(data);
+                    }
+                    $("#call_back").fadeIn(1000);
+                    $("#ajax_load").fadeOut();
                 });
-                $("#call_back").fadeIn(4000);
-                $("#ajax_load").delay(3000).fadeOut();
             };
             return false;
         });
@@ -100,13 +113,14 @@ start_call={
             var parent = $(this).parent('td');
             var ctid = parent.find('input[name=ctid]').val();
             var labip = parent.find('input[name=labip]').val();
+            var apptype = parent.find('input[name=apptype]').val();
             var status = parent.parent('tr').find('.cb_status').first();
             status.empty();
             status.append('<div> Checking </div>');
             var button = $(this);
             button.attr("disabled", true);
             var handle = $("#username").text();
-            $.post(uri, {ctid: ctid, labip: labip, handle:handle}, function(data){
+            $.post(uri, {ctid: ctid, labip: labip, handle:handle, apptype: apptype}, function(data){
                 button.delay(8000).fadeTo(100,0.8,function(){
                     status.empty();
                     status.append('<div> '+data+' </div>');
@@ -125,9 +139,9 @@ start_call={
                             status.append('<div> Failure </div>');
                         }
                     });
+                    $("#ajax_load").delay(1000).fadeOut();
                 });
             });
-            $("#ajax_load").delay(8000).fadeOut();
             return false;
         });
     },
@@ -137,14 +151,14 @@ start_call={
             $.post('load.cgi', { handle:handle}, function(data){
                 if(data.length>1){
                     $("tbody").append(data);
-                    $("#call_back").fadeIn(4000);
+                    $("#call_back").fadeIn(1000);
                 }
             });
         }
     },
     check : function(){
         $(function() {
-            var cookie = start_call.createCookie();
+            var cookie = cz_cookie.createCookie();
             $( "#dialog:ui-dialog" ).dialog( "destroy" );
             var handle = $( "#handle" ),
                 allFields = $( [] ).add( handle ),
@@ -196,8 +210,8 @@ start_call={
             }
             $( "#dialog-form" ).dialog({
                 autoOpen: false,
-                height: 280,
-                width: 400,
+                height: 300,
+                width: 420,
                 modal: true,
                 closeOnEscape: false,
                 buttons: {
@@ -314,7 +328,10 @@ start_call={
                 $("#subject").focus();
             });
         });
-    },
+    }
+}
+
+cz_cookie = {
     createCookie : function(){
         var cookie = new Object();
         cookie.set = function(name, value, duration){
@@ -355,4 +372,54 @@ start_call={
         return cookie;
     }
 }
+
+cz_event = {
+    init: function(){
+        $("#select01").click(function () {
+            var type = $(this).val();
+            if (type == 'TELNUM') {
+                $("#macthdir").show();
+            } else {
+                $("#macthdir").hide();
+            }
+            ;
+        });
+        $("#logout").click(function () {
+            var cookie = cz_cookie.createCookie();
+            if (cookie.check('handle')) {
+                cookie.del('handle');
+                location.reload();
+            }
+        });
+        $("#home").click(function(){
+            if($("#username").text()!='handle'){
+                $("#main-tab").slideDown();
+            }
+            $("#about-tab").slideUp();
+        });
+        $("#about").click(function(){
+            $("#main-tab").slideUp();
+            $("#about-tab").slideDown();
+        });
+    },
+    plus: function(){
+        var str = '<div class="control-group">'+
+            '<label class="control-label" for="inputs">CNFG IP</label>'+
+            '<div class="controls">'+
+            '<abbr title="e.g.: 135.2.121.97" class="initialism"><input type="text" class="input-xlarge cnfg" name="labip"></abbr>'+
+            '<div class="cnfgip" style="float: right; margin-top: 5px; margin-right: 160px;">'+
+            '<a href="javascript:void(0)" class="ui-corner-all" role="button"><span class="ui-icon ui-icon-circle-minus">minus</span></a>'+
+            '</div>'+
+            '<p id="ip-tips" class="help-block" style="margin-top:0; font-size:12px;">Input the lab IP address.</p>'+
+            '</div>'+
+            '</div>';
+        $("#bt-plus").click(function(){
+            $("#labip").after(str);
+        })
+        $(".cnfgip").live('click',function(){
+            $(this).parent('div').parent('div').remove();
+        })
+    }
+}
+
 

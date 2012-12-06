@@ -17,8 +17,8 @@ start.createXML()
 ## --thread-- ##
 try:
     start.startCommand()
-except Exception:
-    print "Not completed in given time!"
+except Exception, e:
+    print "NotCompleted"
 else:
 ## --thread-- ##
 

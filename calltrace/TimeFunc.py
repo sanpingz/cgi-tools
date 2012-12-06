@@ -34,7 +34,7 @@ def function(n=15):
     z = 1
     while z < n:
         z += 1
-        time.sleep(0.5)
+        time.sleep(1)
     return z
 
 if __name__ == "__main__":

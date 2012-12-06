@@ -25,34 +25,26 @@
         .control-group label { font-weight: 700; }
         .marketing h2 { margin: 4px 0 8px; font-size: 34px; font-weight: 300; text-align: center; }
         .marketing h3 { margin-bottom: 10px; font-size: 22px; }
-        .marketing-byline { margin: 8px 0 20px; font-size: 24px; font-weight: 300; line-height: 24px; color: #999; text-align: center;
+        .marketing-byline { margin: 8px 0 20px; font-size: 24px; font-weight: 300; line-height: 24px; color: #999; text-align: center;}
+        .ok-block { margin-left: 5px; width: 20px; text-align: center;}
     </style>
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/lib/jquery-ui-1.8.22.custom/css/ui-lightness/jquery-ui-1.8.22.custom.css">
+    <link rel="stylesheet" href="../assets/lib/jquery-ui-1.9.1.custom/css/redmond/jquery-ui-1.9.1.custom.min.css">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="../assets/images/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144"
-          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72"
-          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed"
-          href="../assets/lib/twitter-bootstrap-v2.0.4/ico/apple-touch-icon-57-precomposed.png">
-
     <script src="../assets/js/jquery-1.7.2.min.js"></script>
     <script src="../assets/js/calltrace.cz.js"></script>
-    <script src="../assets/lib/jquery-ui-1.8.22.custom/js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script src="../assets/lib/jquery-ui-1.9.1.custom/js/jquery-ui-1.9.1.custom.min.js"></script>
 </head>
 
 <body>
 <div class="confirm-box" style="display:none;">
     <div id="dialog-form" title="Input your handle">
-        <span class="validateTips">The first checking is need long time, please wait patiently.</span>
+        <span class="validateTips">First checking need long time, please wait patiently.</span>
 
         <form>
             <fieldset>
@@ -161,8 +153,8 @@
                         </div>
                     </div>
                     <div class="form-actions">
-                        <button type="submit" class="btn btn-primary btn-large" style="width:120px;"> Start</button>
-                        <button type="reset" class="btn btn-large" style="width:120px; margin-left: 20px;"> Reset
+                        <button type="submit" class="btn btn-primary btn-large" style="width:160px;"> Start</button>
+                        <button type="reset" class="btn btn-large" style="width:160px; margin-left: 20px;"> Reset
                         </button>
                         <span id="ajax_load" style="margin-left: 20px; display: none;"><img alt="loading..."
                                                                                             src="../assets/images/ajax_blue.gif"/></span>
@@ -181,7 +173,7 @@
                     <fieldset>
                         <label for="mail-content"><h4>Comment</h4></label>
                         <textarea name="content" id="mail-content" class="text ui-widget-content ui-corner-all"
-                                  style="width:500px; height:160px;"></textarea>
+                                  style="width:500px; height:150px;"></textarea>
                     </fieldset>
                 </form>
             </div>
@@ -212,7 +204,7 @@
     <!--/span-->
 </div>
 <!--/row-->
-<div class="container-fluid" id="about-tab" style="display: none;">
+<div class="container-fluid" id="about-tab" style="display: none; margin-left: 80px;">
     <div class="row-fluid">
         <div class="span10 marketing">
             <h2>IMS Call Trace Management</h2>
@@ -287,33 +279,8 @@
     $(document).ready(function () {
         start_call.start();
         start_call.stop();
-        $("#select01").click(function () {
-            var type = $(this).val();
-            if (type == 'TELNUM') {
-                $("#macthdir").show();
-            } else {
-                $("#macthdir").hide();
-            }
-            ;
-        });
-        $("#logout").click(function () {
-            var cookie = start_call.createCookie();
-            if (cookie.check('handle')) {
-                cookie.del('handle');
-                location.reload();
-            }
-        });
         start_call.feedback();
-        $("#home").click(function(){
-            if($("#username").text()!='handle'){
-                $("#about-tab").slideUp();
-                $("#main-tab").slideDown();
-            }
-        });
-        $("#about").click(function(){
-            $("#main-tab").slideUp();
-            $("#about-tab").slideDown();
-        });
+        cz_event.init();
     })
 </script>
 </body>

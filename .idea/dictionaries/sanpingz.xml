@@ -3,6 +3,7 @@
     <words>
       <w>addr</w>
       <w>alcatel</w>
+      <w>apptype</w>
       <w>callid</w>
       <w>calltrace</w>
       <w>cmdass</w>
@@ -10,6 +11,7 @@
       <w>ctid</w>
       <w>ctlog</w>
       <w>curtime</w>
+      <w>dbpath</w>
       <w>dirpath</w>
       <w>exptools</w>
       <w>fieldset</w>
@@ -26,6 +28,7 @@
       <w>mceiba</w>
       <w>mgwid</w>
       <w>passwd</w>
+      <w>pcap</w>
       <w>sanping</w>
       <w>sanpingz</w>
       <w>sipuri</w>
@@ -34,6 +37,7 @@
       <w>tbody</w>
       <w>telnum</w>
       <w>timeformat</w>
+      <w>tracedb</w>
       <w>userfile</w>
       <w>viewport</w>
       <w>zhang</w>
