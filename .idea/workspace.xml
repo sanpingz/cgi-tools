@@ -2,112 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a819b3-e076-4125-a743-0a4fb5369978" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/56,20121123.0233,ISC.gll14" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/60,20121125.2131,ISC.gll14" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/66,20121126.1917,ISC.gll14" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/mergeFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/sort.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/CallTrace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/FTPDownload.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/JsonDB.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/SendMail.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/TimeFunc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/check.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/data/ctid.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/data/sanpingz.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/data/start6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/download.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/init.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/load.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/mail.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/start.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/stop.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/CallTrace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/FTPDownload.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/JsonDB.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/SendMail.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/TimeFunc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/check.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/download.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/init.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/load.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/mail.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/start.cgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trace/stop.cgi" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\jquery.ui.core.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\jquery.ui.dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\ext\jquery.bgiframe-2.1.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\ext\jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\ext\jquery.metadata.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\ext\qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\ext\qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\jquery-ui-1.8.22.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.blind.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.bounce.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.clip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.drop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.explode.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.fade.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.fold.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.highlight.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.pulsate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.scale.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.shake.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.slide.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.effects.transfer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.accordion.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.autocomplete.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.button.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.datepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.dialog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.draggable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.droppable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.mouse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.position.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.progressbar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.resizable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.selectable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.slider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.sortable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.tabs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\js\min\jquery.ui.widget.min.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\assets\lib\jquery-ui-1.8.22.custom\css\ui-lightness\jquery-ui-1.8.22.custom.css" afterPath="$PROJECT_DIR$/assets/lib/jquery-ui-1.9.1.custom/css/redmond/jquery-ui-1.9.1.custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/sanpingz.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/sanpingz.xml" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\multitracenew\data\ctid.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\multitracenew\data\sanpingz.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\multitracenew\data\start6.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/Thumbs.db" afterPath="$PROJECT_DIR$/assets/images/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/calltrace.cz.js" afterPath="$PROJECT_DIR$/assets/js/calltrace.cz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/CallTrace.py" afterPath="$PROJECT_DIR$/calltrace/CallTrace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/TimeFunc.py" afterPath="$PROJECT_DIR$/calltrace/TimeFunc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/data/ctid.dat" afterPath="$PROJECT_DIR$/calltrace/data/ctid.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/index.html" afterPath="$PROJECT_DIR$/calltrace/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/init.py" afterPath="$PROJECT_DIR$/calltrace/init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calltrace/start.cgi" afterPath="$PROJECT_DIR$/calltrace/start.cgi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/index.html" afterPath="$PROJECT_DIR$/command/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="calltrace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,7 +32,20 @@
     <favorites_list name="calltrace" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="95" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.5814394">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#1;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -151,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/demo/mergeFile.py" />
         <option value="$PROJECT_DIR$/multitrace/CallTrace.py" />
         <option value="$PROJECT_DIR$/multitracenew/init.py" />
         <option value="$PROJECT_DIR$/multitracenew/CallTrace.py" />
@@ -167,6 +78,7 @@
         <option value="$PROJECT_DIR$/demo/sort.py" />
         <option value="$PROJECT_DIR$/multitrace/load.bak.cgi" />
         <option value="$PROJECT_DIR$/multitrace/load.cgi" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -202,6 +114,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,30 +142,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calltrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multitrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -251,12 +149,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -501,17 +399,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993865" sideWeight="0.33445945" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15541922" sideWeight="0.6891892" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15848671" sideWeight="0.6891892" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19529653" sideWeight="0.43243244" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27195945" sideWeight="0.51329243" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3108108" sideWeight="0.4795501" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3108108" sideWeight="0.4795501" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22117648" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,60 +515,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/FTPDownload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="17" selection-start="739" selection-end="739" vertical-scroll-proportion="1.1782178">
-          <folding />
-        </state>
+        <state line="29" column="17" selection-start="739" selection-end="739" vertical-scroll-proportion="1.1782178" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/start.cgi">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1173285">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1173285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/download.cgi">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="439" selection-end="439" vertical-scroll-proportion="0.659612">
-          <folding />
-        </state>
+        <state line="24" column="27" selection-start="439" selection-end="439" vertical-scroll-proportion="0.659612" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/1252619969/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="611" column="7" selection-start="18378" selection-end="18381" vertical-scroll-proportion="0.33212996">
-          <folding />
-        </state>
+        <state line="611" column="7" selection-start="18378" selection-end="18381" vertical-scroll-proportion="0.33212996" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/load.cgi">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="25" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.94324327">
-          <folding>
-            <element signature="e#27#44#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="52" column="25" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.94324327" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/JsonDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.44386423">
-          <folding />
-        </state>
+        <state line="87" column="0" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.44386423" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="181" selection-end="181" vertical-scroll-proportion="0.31070495">
-          <folding />
-        </state>
+        <state line="7" column="53" selection-start="181" selection-end="181" vertical-scroll-proportion="0.31070495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/stop.cgi">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="101" selection-end="101" vertical-scroll-proportion="0.1775457">
+        <state line="4" column="31" selection-start="101" selection-end="101" vertical-scroll-proportion="0.1775457" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="95" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.5814394">
           <folding>
-            <element signature="e#27#37#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#1;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
