@@ -7,6 +7,7 @@
       <w>callid</w>
       <w>calltrace</w>
       <w>cmdass</w>
+      <w>cnfg</w>
       <w>confirm&quot;</w>
       <w>ctid</w>
       <w>ctlog</w>
@@ -27,8 +28,11 @@
       <w>matchdir</w>
       <w>mceiba</w>
       <w>mgwid</w>
+      <w>mkdir</w>
+      <w>okbc</w>
       <w>passwd</w>
       <w>pcap</w>
+      <w>rmdir</w>
       <w>sanping</w>
       <w>sanpingz</w>
       <w>sipuri</w>
