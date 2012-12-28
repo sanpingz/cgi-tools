@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4a819b3-e076-4125-a743-0a4fb5369978" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/mergecap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/Common.py" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\demo\mergeFile.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/sanpingz.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/sanpingz.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/CallTrace.py" afterPath="$PROJECT_DIR$/multitrace/CallTrace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/FTPDownload.py" afterPath="$PROJECT_DIR$/multitrace/FTPDownload.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/download.cgi" afterPath="$PROJECT_DIR$/multitrace/download.cgi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/init.py" afterPath="$PROJECT_DIR$/multitrace/init.py" />
-    </list>
+    <list default="true" id="d4a819b3-e076-4125-a743-0a4fb5369978" name="Default" comment="" />
     <ignored path="calltrace.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,9 +31,7 @@
         <entry file="file://$PROJECT_DIR$/multitrace/FTPDownload.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="60" column="21" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#52#74#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +39,7 @@
       <file leaf-file-name="mergecap.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/mergecap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="31" selection-start="885" selection-end="885" vertical-scroll-proportion="0.57253885">
+            <state line="78" column="47" selection-start="2452" selection-end="2500" vertical-scroll-proportion="0.7148847">
               <folding />
             </state>
           </provider>
@@ -95,8 +83,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1024" />
-    <option name="height" value="738" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -124,16 +114,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,50 +128,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
+              <option name="myItemId" value="alu-tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calltrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calltrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calltrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -201,12 +149,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -248,7 +196,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/scp_hss.py" />
       <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -266,7 +213,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/simpleFTP.py" />
       <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -284,7 +230,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/loadJson.py" />
       <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -302,7 +247,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multitrace/FTPDownload.py" />
       <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -318,9 +262,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <module name="calltrace" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\demo\mergecap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/mergecap.py" />
       <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -338,7 +281,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -395,10 +337,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.mergecap" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FTPDownload" />
-        <item index="2" class="java.lang.String" itemvalue="Python.loadJson" />
-        <item index="3" class="java.lang.String" itemvalue="Python.scp_hss" />
-        <item index="4" class="java.lang.String" itemvalue="Python.simpleFTP" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mergecap" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FTPDownload" />
+        <item index="3" class="java.lang.String" itemvalue="Python.loadJson" />
+        <item index="4" class="java.lang.String" itemvalue="Python.scp_hss" />
       </list>
     </recent_temporary>
   </component>
@@ -450,18 +392,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="738" extended-state="1" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993865" sideWeight="0.33445945" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2072165" sideWeight="0.7037671" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13916786" sideWeight="0.7044818" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16768916" sideWeight="0.3158784" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27195945" sideWeight="0.51329243" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29623288" sideWeight="0.4795501" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29551822" sideWeight="0.4795501" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22117648" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -572,11 +514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/CallTrace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="13" selection-start="7403" selection-end="7403" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="e#27#60#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="205" column="13" selection-start="7403" selection-end="7403" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/Common.py">
@@ -586,44 +524,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/simpleFTP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="20" selection-start="2077" selection-end="2077" vertical-scroll-proportion="1.9463327">
-          <folding />
-        </state>
+        <state line="65" column="20" selection-start="2077" selection-end="2077" vertical-scroll-proportion="1.9463327" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/loadJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="112" selection-end="112" vertical-scroll-proportion="0.1824687">
-          <folding />
-        </state>
+        <state line="6" column="16" selection-start="112" selection-end="112" vertical-scroll-proportion="0.1824687" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace/CallTrace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.4168158">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.4168158" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/FTPDownload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="21" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#52#74#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/cnfg.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="85" selection-end="85" vertical-scroll-proportion="0.13212435">
-          <folding />
-        </state>
+        <state line="3" column="14" selection-start="85" selection-end="85" vertical-scroll-proportion="0.13212435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/mergecap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="885" selection-end="885" vertical-scroll-proportion="0.57253885">
+        <state line="78" column="47" selection-start="2452" selection-end="2500" vertical-scroll-proportion="0.7148847">
           <folding />
         </state>
       </provider>

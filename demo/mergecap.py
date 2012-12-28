@@ -2,38 +2,44 @@ __author__ = 'sanpingz'
 
 import os, struct
 
+def getInfo(fn):
+    cap = PCAP(fn)
+    info = []
+    for frame in cap:
+        print frame
+    cap.close()
 class PCAP:
     headerLen = 24
     capHeaderLen = 16
-    capStruct = ['GMTtime','microTime','capLen','len']
+    capStruct = ['gmtTime','microTime','capLen','len']
     def __init__(self, fn):
         self.file = open(fn, 'rb')
-        self.file.seek(self.headerLen)
+        #self.file.seek(self.headerLen,0)
+        self.previous = 0
         self.current = self.headerLen
-    def getHeader(self):
+    def header(self):
         now = self.file.tell()
         self.file.seek(0)
         header = self.file.read(self.headerLen)
         self.file.seek(now)
         return header
     def capHeader(self):
-        return self.file.read(self.capHeaderLen)
-    def getUnpackedCapHeader(self):
-        header = struct.unpack('IIII',self.capHeader())
-        print self.file.tell()
+        #print 'tell: (before)'+str(self.file.tell())
+        header = struct.unpack('IIII',self.file.read(self.capHeaderLen))
+        #print dict(zip(self.capStruct,header))
         return dict(zip(self.capStruct,header))
-    def hasNext(self):
-        flag = False
-        if self.capHeader():
-            flag = True
-        return flag
     def next(self):
-        if self.file.readable():
-            capLen = self.getUnpackedCapHeader().get('capLen')
-            self.current += capLen
-            #self.file.seek(self.current)
-            return self.current
-        else:
+        try:
+            self.file.seek(self.current,0)
+            self.previous = self.current
+            cap = self.capHeader()
+            capLen = cap.get('capLen')
+            self.current += capLen+self.capHeaderLen
+            #print 'tell: (after)'+str(self.file.tell())
+            res = ['time','len','loc']
+            info = [float(str(cap.get('gmtTime'))+'.'+str(cap.get('microTime'))), capLen, self.previous]
+            return dict(zip(res,info))
+        except struct.error:
             raise StopIteration
     def __iter__(self):
         return self
@@ -69,10 +75,6 @@ if __name__ == '__main__':
                 '60,20121125.2131,ISC.gll14',
                 '66,20121126.1917,ISC.gll14']
     #merge(filelist, name='merged.pcap', header_len=24)
-    cap = PCAP('60,20121125.2131,ISC.gll14')
-    print cap.getUnpackedCapHeader()
-    for frame in cap:
-        print frame
-    cap.close()
 
+    print getInfo('60,20121125.2131,ISC.gll14')
 
