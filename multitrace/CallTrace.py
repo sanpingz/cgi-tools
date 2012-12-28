@@ -8,6 +8,7 @@ from JsonDB import simpleDB
 from FTPDownload import ftpDownload
 import FTPDownload
 from TimeFunc import FuncWrapper, Timeout
+from Common import scp
 
 BASE_DIR = abspath('data')
 hostParam = {'port':'9623'
@@ -201,10 +202,12 @@ class stopCall:
             param['host'] = user['labip']
             param['ctid'] = user['ctid']
             fd = ftpDownload(param)
-            addr = fd.getAddr()
-            if addr and (len(addr)>0):
+            addr = fd.getAddr(flag='scp')
+            #TODO
+            scp(addr,fd.passwd,r'pcap/')
+            if addr and len(addr)<120:
                 user['status'] = 'Stopped'
-                user['addr'] = addr
+                user['addr'] = os.path.join(r'pcap',os.path.split(addr)[1])
             else:
                 user['status'] = 'Failure'
             data[self.ctid] = user

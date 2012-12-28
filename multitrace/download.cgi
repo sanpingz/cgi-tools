@@ -22,7 +22,7 @@ db = simpleDB(handle)
 user = db.select(ctid)
 addr = user.get('addr')
 
-if addr and (len(addr))<120:
+if addr and len(addr)<120:
     print addr
 else:
     print ''
