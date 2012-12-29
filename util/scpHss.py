@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""usage: scp_hss CNFG_IP"""
+"""usage: scpHss CNFG_IP"""
 __author__ = 'sanpingz(sanping.zhang@alcatel-lucent)'
 
 import sys, getopt, os, re, ftplib
