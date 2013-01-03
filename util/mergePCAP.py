@@ -5,6 +5,7 @@ Tips: Return 0 means failed, return merged file name means successful
 __author__ = 'sanpingz'
 
 import os, struct, time, re, sys
+from os.path import join
 from pprint import pprint
 
 class PCAP:
@@ -87,10 +88,10 @@ def sortInfo(fns):
     res.sort()
     return res
 
-def genMergedName(fns):
+def genName(fns):
     name = ''
     for fn in fns:
-        name += re.split(',|\.', fn)[0]+'.'
+        name += re.split(',|\.', os.path.split(fn)[-1])[0]+'.'
     temp = time.strftime('%Y%m%d.%H%M%S',time.localtime(time.time()))
     return name+temp+'.pcap'
 
@@ -117,6 +118,17 @@ def mergePCAP(fns, name='merged.pcap'):
         name = 0
     return name
 
+def rmPCAP(duration = 2, dir = '.'):
+    """unit is hour"""
+    duration *= 3600
+    res = []
+    for fn in os.listdir(dir):
+        match = re.findall(r'\d{8}\.\d{6}\.pcap$', fn)
+        if match and (time.time()-float(match[0][:-5])) > duration:
+            os.remove(join(dir,fn))
+
+
+
 def __merged(fns, name='merged', mode='b', header_len=0):
     if mode != 'b': mode = ''
     if os.path.isfile(name): os.remove(name)
@@ -141,26 +153,29 @@ def __merged(fns, name='merged', mode='b', header_len=0):
 
 if __name__ == '__main__':
 
-    fns = ['56,20121123.0233,ISC.gll14',
-           '60,20121125.2131,ISC.gll14',
-           '66,20121126.1917,ISC.gll14']
+    fns = [r'pcap\56,20121123.0233,ISC.gll14',
+           r'pcap\60,20121125.2131,ISC.gll14',
+           r'pcap\66,20121126.1917,ISC.gll14']
 
-    #info = getInfo('60,20121125.2131,ISC.gll14')
+    #info = getInfo(r'pcap\60,20121125.2131,ISC.gll14')
     #pprint(info)
 
-    #cap = PCAP('60,20121125.2131,ISC.gll14')
+    #cap = PCAP(r'pcap\60,20121125.2131,ISC.gll14')
     #print cap.sip(1383,1584)
-    #for frame in getInfo('60,20121125.2131,ISC.gll14'):
+    #for frame in getInfo(r'pcap\60,20121125.2131,ISC.gll14'):
     #    print cap.sip(frame[1], frame[2])
 
     #__merge(filelist, name='merged.pcap', header_len=24)
 
     #pprint(sortInfo(fns))
-    print mergePCAP(fns)
+    #print mergePCAP(fns,name=join('pcap',genName(fns)))
+    #print mergePCAP(fns)
+
+    print rmPCAP(duration = 2/3600, dir='pcap')
 
     if len(sys.argv)>2:
         fns = sys.argv[1:]
-        print mergePCAP(fns,genMergedName(fns))
+        print mergePCAP(fns,genName(fns))
 
 
 
