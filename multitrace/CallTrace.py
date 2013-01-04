@@ -202,12 +202,11 @@ class stopCall:
             param['host'] = user['labip']
             param['ctid'] = user['ctid']
             fd = ftpDownload(param)
-            addr = fd.getAddr(flag='scp')
+            addr = fd.getAddr(flag='ftp')
             #TODO
-            scp(addr,fd.passwd,r'pcap/')
             if addr and len(addr)<120:
                 user['status'] = 'Stopped'
-                user['addr'] = os.path.join(r'pcap',os.path.split(addr)[1])
+                user['addr'] = addr
             else:
                 user['status'] = 'Failure'
             data[self.ctid] = user

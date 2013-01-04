@@ -9,7 +9,7 @@ parameter = {'host':'135.252.226.34',
          'passwd':'lss',
          'cwd':'../../../logs/ctlog',
          'path':'/logs/ctlog',
-         'ctid':'10'
+         'ctid':'14'
 }
 class ftpDownload:
     def __init__(self,param):
@@ -51,11 +51,12 @@ class ftpDownload:
                     num = int(re.split('[,|.]+',file)[2])
         return  matched
     def getAddr(self, flag='ftp'):
+        """flag = ftp|scp|file"""
         file = self.matchFile()
         addr = ''
         if file:
             if flag == 'ftp':
-                addr = r'ftp://'+self.user+':'+self.passwd+'@'+self.host+r'/'+self.cwd+r'/'+file
+                addr = r'ftp://'+self.user+':'+self.passwd+'@'+self.host+r'/'+self.path+r'/'+file
             if flag == 'scp':
                 addr = self.user+r'@'+self.host+r':'+self.path+r'/'+file
             if flag == 'file':

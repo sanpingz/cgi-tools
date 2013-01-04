@@ -121,13 +121,13 @@ def mergePCAP(fns, name='merged.pcap'):
 def rmPCAP(duration = 2, dir = '.'):
     """unit is hour"""
     duration *= 3600
-    res = []
+    count = 0
     for fn in os.listdir(dir):
         match = re.findall(r'\d{8}\.\d{6}\.pcap$', fn)
         if match and (time.time()-float(match[0][:-5])) > duration:
             os.remove(join(dir,fn))
-
-
+            count += 1
+    return count
 
 def __merged(fns, name='merged', mode='b', header_len=0):
     if mode != 'b': mode = ''
@@ -161,14 +161,14 @@ if __name__ == '__main__':
     #pprint(info)
 
     #cap = PCAP(r'pcap\60,20121125.2131,ISC.gll14')
-    #print cap.sip(1383,1584)
+    ##print cap.sip(1383,1584)
     #for frame in getInfo(r'pcap\60,20121125.2131,ISC.gll14'):
     #    print cap.sip(frame[1], frame[2])
 
     #__merge(filelist, name='merged.pcap', header_len=24)
 
     #pprint(sortInfo(fns))
-    #print mergePCAP(fns,name=join('pcap',genName(fns)))
+    print mergePCAP(fns,name=join('pcap',genName(fns)))
     #print mergePCAP(fns)
 
     print rmPCAP(duration = 2/3600, dir='pcap')
