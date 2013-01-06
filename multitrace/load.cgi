@@ -12,7 +12,11 @@ form = cgi.FieldStorage()
 
 def sort_dict(data):
     keys = data.keys()
+    try:
+        keys = map(int,keys)
+    except:pass
     keys.sort()
+    keys = map(str,keys)
     return zip(keys, map(data.get, keys))
 
 if form.has_key('handle'):
@@ -23,7 +27,7 @@ if form.has_key('handle'):
         data = sort_dict(data)
         for key, value in data:
             print '<tr>'
-            print '<td> %s </td>' % key
+            print '<td> <a class="trigger_sb" href="javascript:void(0)">%s</a> </td>' % key
             print '<td> %s </td>' % value['mode']
             if value['mode'] == 'TELNUM':
                 print '<td> %s </td>' % (value['callid']+' ('+value.get('matchdir')+')')

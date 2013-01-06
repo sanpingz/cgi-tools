@@ -23,12 +23,12 @@ def callback(p):
         start.startCommand()
     except Exception,e:
         print "NotCompleted"
-        print e
+        #print e
     else:
     ## --thread-- ##
 
         print '<tr id="ct%s">' % start.ctid
-        print '<td> %s </td>' % start.ctid
+        print '<td> <a class="trigger_sb" href="javascript:void(0)">%s</a> </td>' % start.ctid
         print '<td> %s </td>' % start.mode
         if start.mode == 'TELNUM':
             print '<td> %s </td>' % (str(start.callid)+' ('+start.matchdir+')')

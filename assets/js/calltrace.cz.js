@@ -5,6 +5,7 @@
  * Time: 下午1:57
  * To change this template use File | Settings | File Templates.
  */
+
 start_call={
     start : function(){
         var ip = $("#labip"),
@@ -92,7 +93,7 @@ start_call={
                 data += '&handle='+handle;
                 $.post(uri, data, function(data){
                     var label = $("#cb-label");
-                    if (data.match(/NotCompleted/g) || data==''){
+                    if (data=='' || data.match(/NotCompleted/g)){
                         label.text('timeout, confirm your CNFG IP, and try again.');
                         label.addClass('label-important');
                         label.fadeIn().delay(5000).fadeOut(function(){ label.removeClass('label-important') });
@@ -418,7 +419,96 @@ cz_event = {
         })
         $(".cnfgip").live('click',function(){
             $(this).parent('div').parent('div').remove();
+            //if($(".cnfgip").length==0){
+            //    $("#cb_merge").hide();
+            //}
         })
+    },
+    merge: function(){
+        var $cm = $("#cb_merge");
+        var $inputs = $("#labip").find("input[name=labip]");
+        $(".cnfg").live('change',function(){
+            var flag = true;
+            $(".cnfg").each(function(i,e){
+                if($(e).val()){
+                    $cm.show();
+                    flag = false;
+                    return;
+                }
+            });
+            if(flag){
+                $cm.hide();
+            }
+        });
+    },
+    sidebar: function(){
+        Array.prototype.contain = function(item){
+            var i=0;
+            for(i=0; i<this.length; i++){
+                if(item==this[i]) return true;
+            }
+            return false;
+        }
+        var $bar = $("#merge_bar");
+        var $input = $bar.find('input').first();
+        var $button = $bar.find('a').first();
+        var $trigger = $(".trigger_sb")
+        var match = $input.val().match(/\d+/g);
+        var isReady = function(){
+            var i=0, j=0,
+                ctid=new Array(),
+                href = new Array();
+            var $ctid = $("#stop_form tbody").find('input[name=ctid]')
+            $ctid.each(function(i,e){
+                ctid.push($(e).val());
+                href.push($(e).next('button').next('a').attr('href'));
+            });
+            for(i=0;i<match.length;i++){
+                if(ctid.contain(match[i]) && href[i]) j++;
+            }
+            return j==match.length;
+        }
+        $button.click(function(){
+            match = $input.val().match(/\d+/g);
+            if($input.val() && match && isReady()){
+                var data='',id=0;
+                for(id=0; id<match.length; id++){
+                    data += '&mid=' + match[id];
+                }
+                data = data.substring(1,data.length);
+                $.post('merge.cgi',data,function(data){
+                    if(data){
+                        $button.text('Download');
+                        $button.removeClass('btn-danger');
+                        $button.addClass('btn-success');
+                        $button.attr('href',data);
+                    }else{
+                        $button.text('Failure');
+                        $button.removeClass('btn-success');
+                        $button.addClass('btn-danger');
+                        $button.attr('href','javascript:void(0)');
+                    }
+                });
+            }
+        });
+        $input.focus(function(){
+            $(this).val('');
+            $button.text('MergePCAP');
+            $button.removeClass('btn-danger');
+            $button.removeClass('btn-success');
+            $button.attr('href','javascript:void(0)');
+        });
+        $trigger.live('dblclick',function(){
+            var extra = $(this).text();
+            if($input.val()){
+                var mc = $input.val().split(/\s/);
+                if(!mc.contain(extra)){
+                    $input.val($input.val()+' '+extra);
+                }
+            }else{
+                $input.val(extra);
+            }
+        });
     }
 }
 

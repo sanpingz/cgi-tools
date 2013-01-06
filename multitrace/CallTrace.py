@@ -5,14 +5,13 @@ from exceptions import Exception
 import pickle, shelve
 from string import replace
 from JsonDB import simpleDB
-from FTPDownload import ftpDownload
-import FTPDownload
+import SimpleFTP
 from TimeFunc import FuncWrapper, Timeout
-from Common import scp
 
 BASE_DIR = abspath('data')
 hostParam = {'port':'9623'
 }
+LOCAL = 'pcap'
 class startCall:
     status = 'Started'
     error = {}
@@ -198,12 +197,11 @@ class stopCall:
             db = simpleDB(self.handle)
             user = db.select(self.ctid)
             data = dict()
-            param = FTPDownload.parameter
+            param = SimpleFTP.parameter
             param['host'] = user['labip']
-            param['ctid'] = user['ctid']
-            fd = ftpDownload(param)
-            addr = fd.getAddr(flag='ftp')
-            #TODO
+            param['local'] = LOCAL
+            ctid = user['ctid']
+            addr = SimpleFTP.addr(ctid,param=param)
             if addr and len(addr)<120:
                 user['status'] = 'Stopped'
                 user['addr'] = addr

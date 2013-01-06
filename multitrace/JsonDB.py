@@ -4,10 +4,11 @@ __author__ = 'sanpingz'
 from os.path import join, abspath
 import os, time
 import pickle
-from FTPDownload import ftpDownload
-import FTPDownload
+import SimpleFTP
+
 
 BASE_DIR = abspath('data')
+LOCAL = 'pcap'
 
 class simpleDB:
     user = {}
@@ -71,11 +72,11 @@ class simpleDB:
                 exp = int(value['duration'])*60
                 if alt <= expires:
                     if alt >= exp and value['status'] == 'Started':
-                        param = FTPDownload.parameter
+                        param = SimpleFTP.parameter
                         param['host'] = value['labip']
-                        param['ctid'] = value['ctid']
-                        fd = ftpDownload(param)
-                        addr = fd.getAddr()
+                        param['local'] = LOCAL
+                        ctid = value['ctid']
+                        addr = SimpleFTP.addr(ctid, param=param, duration=24)
                         if addr and (len(addr)>0) and (len(addr)<120):
                             value['status'] = 'Stopped'
                             value['addr'] = addr

@@ -42,7 +42,7 @@ class PCAP:
         return msg
     def capHeader(self):
         #print 'tell: (before)'+str(self.file.tell())
-        header = struct.unpack('IIII',self.file.read(self.capHeaderLen))
+        header = struct.unpack('<IIII',self.file.read(self.capHeaderLen))
         #print dict(zip(self.capStructure,header))
         return dict(zip(self.capStructure,header))
     def next(self):
@@ -77,7 +77,8 @@ def getInfo(fn):
         else:
             raise IOError
     except Exception, e:
-        print e
+        pass
+        #print e
     return info
 
 def sortInfo(fns):
@@ -89,9 +90,13 @@ def sortInfo(fns):
     return res
 
 def genName(fns):
+    names = []
     name = ''
     for fn in fns:
-        name += re.split(',|\.', os.path.split(fn)[-1])[0]+'.'
+        names.append(int(re.split(r'[,|\.]', os.path.split(fn)[-1])[0]))
+    names.sort()
+    for n in names:
+        name += str(n)+'.'
     temp = time.strftime('%Y%m%d.%H%M%S',time.localtime(time.time()))
     return name+temp+'.pcap'
 
@@ -99,7 +104,9 @@ def mergePCAP(fns, name='merged.pcap'):
     res = sortInfo(fns)
     fo = dict()
     try:
-        with open(name, 'wb') as f:
+        try:
+        #with open(name, 'wb') as f:
+            f = open(name, 'wb')
             for fn in fns:
                 fo[fn] = open(fn,'rb')
             try:
@@ -111,6 +118,7 @@ def mergePCAP(fns, name='merged.pcap'):
             finally:
                 for fn in fns:
                     fo[fn].close()
+        finally: f.close()
     except Exception:
         if os.path.isfile(name) and not os.path.getsize(name):
             os.remove(name)
@@ -119,10 +127,13 @@ def mergePCAP(fns, name='merged.pcap'):
     return name
 
 def isPCAP(fn):
-    with open(fn) as f:
+    #with open(fn) as f:
+    f = open(fn)
+    try:
         f.seek(0,0)
         magic = f.read(PCAP.magicLen)
-        return magic == '\xd4\xc3\xb2\xa1' or magic == '\xa1\xb2\xc3\xd4'
+    finally: f.close()
+    return magic == '\xd4\xc3\xb2\xa1' or magic == '\xa1\xb2\xc3\xd4'
 
 def rmPCAP(duration = 24, dir = '.'):
     """unit is hour"""
@@ -140,7 +151,9 @@ def __merged(fns, name='merged', mode='b', header_len=0):
     if mode != 'b': mode = ''
     if os.path.isfile(name): os.remove(name)
     count = 0
-    with open(name, 'a'+mode) as f:
+    #with open(name, 'a'+mode) as f:
+    f = open(name, 'a'+mode)
+    try:
         for file in fns:
             if os.path.isfile(file):
                 count += 1
@@ -154,31 +167,35 @@ def __merged(fns, name='merged', mode='b', header_len=0):
                 print file
             else:
                 print file+' is not exist'
+    finally: f.close()
     print '='*25
     print 'Successfully merged '+str(count)+' files'
     print 'Merged file is '+name
 
 if __name__ == '__main__':
 
-    fns = [r'pcap\56,20121123.0233,ISC.gll14',
-           r'pcap\60,20121125.2131,ISC.gll14',
-           r'pcap\66,20121126.1917,ISC.gll14']
+    fns = [r'pcap\16.20130103.2312.ISC.qln02',
+           r'pcap\18.20130103.2333.ISC.qln02',
+           r'pcap\19.20130104.0033.ISC.qln02']
+    #cap = PCAP(r'pcap\3.20130104.2034.ISC.qln02')
+    #print cap.next()
 
-    #info = getInfo(r'pcap\60,20121125.2131,ISC.gll14')
+    #info = getInfo(fns[0])
     #pprint(info)
 
-    #cap = PCAP(r'pcap\60,20121125.2131,ISC.gll14')
+    #cap = PCAP(fns[0])
     ##print cap.sip(1383,1584)
-    #for frame in getInfo(r'pcap\60,20121125.2131,ISC.gll14'):
+    #for frame in getInfo(fns[0]):
     #    print cap.sip(frame[1], frame[2])
 
     #__merge(filelist, name='merged.pcap', header_len=24)
 
     #pprint(sortInfo(fns))
-    print mergePCAP(fns,name=join('pcap',genName(fns)))
+    #print mergePCAP(fns,name=join('pcap',genName(fns)))
     #print mergePCAP(fns)
 
     #print rmPCAP(duration = 24, dir='pcap')
+    #print genName(fns)
 
     if len(sys.argv)>2:
         fns = sys.argv[1:]
