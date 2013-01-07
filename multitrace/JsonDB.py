@@ -73,7 +73,7 @@ class simpleDB:
                 if alt <= expires:
                     if alt >= exp and value['status'] == 'Started':
                         param = SimpleFTP.parameter
-                        param['host'] = value['labip']
+                        param['labip'] = value['labip']
                         param['ctid'] = value['ctid']
                         param['local'] = LOCAL
                         addr = SimpleFTP.addr(param=param, duration=24)

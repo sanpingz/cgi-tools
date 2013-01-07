@@ -4,14 +4,14 @@ __author__ = 'sanpingz'
 import re, socket, os, time
 from ftplib import FTP
 from os.path import join
-from mergePCAP import mergePCAP
+from mergePCAP import mergePCAP, rmPCAP
 from logCtrl import simpleLog
 
-LOG_FILE = join('data','simpleftp.log')
+LOG_FILE = join('data','calltrace.log')
 def logException():
     simpleLog(name='simpleftp', file=LOG_FILE)
 
-parameter = {'host':'135.252.226.34',
+parameter = {'labip':'135.252.226.34',
             'user':'lss',
             'passwd':'lss',
             'cwd':'../../../logs/ctlog',
@@ -20,7 +20,7 @@ parameter = {'host':'135.252.226.34',
 }
 class sFTP:
     def __init__(self,param):
-        self.host = param['host']
+        self.host = param['labip']
         self.user = param['user']
         self.passwd = param['passwd']
         self.cwd = param['cwd']
@@ -168,7 +168,7 @@ def addr(param=parameter, duration=0):
     if duration:
         try:
             """duration = 24h"""
-            mergePCAP.rmPCAP(duration=duration,dir=param['local'])
+            rmPCAP(duration=duration,dir=param['local'])
         except: logException()
     return  matched
 

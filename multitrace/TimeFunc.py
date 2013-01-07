@@ -1,5 +1,6 @@
+#!/usr/bin/env python
 import threading, time
-import os, signal
+import os, signal,sys
 
 class FuncWrapper(object):
     def __init__(self, func, args):
@@ -31,21 +32,18 @@ class Timeout(threading.Thread):
 
 
 def function(n=15):
-    z = 1
+    z = 0
     while z < n:
         z += 1
+        print z
         time.sleep(0.5)
     return z
 
 if __name__ == "__main__":
+    func_obj = FuncWrapper(function, 15)
     try:
-        func_obj = FuncWrapper(function, 15)
-        try:
-            t = Timeout(5, func_obj)
-            t.run()
-            print func_obj.result
-        except Exception:
-            print "Not completed in given time!"
-            raise Exception('inner')
+        t = Timeout(3, func_obj)
+        t.run()
+        print func_obj.result
     except Exception:
-        print 'error'
+        print "Not completed in given time!"

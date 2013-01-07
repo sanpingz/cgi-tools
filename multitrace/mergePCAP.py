@@ -6,7 +6,13 @@ __author__ = 'sanpingz'
 
 import os, struct, time, re, sys
 from os.path import join
+from logCtrl import simpleLog
 from pprint import pprint
+
+LOG_FILE = join('data', 'calltrace.log')
+
+def logException():
+    simpleLog(name='mergepcap', file=LOG_FILE)
 
 class PCAP:
     headerLen = 24
@@ -77,7 +83,7 @@ def getInfo(fn):
         else:
             raise IOError
     except Exception, e:
-        pass
+        logException()
         #print e
     return info
 
@@ -123,6 +129,7 @@ def mergePCAP(fns, name='merged.pcap'):
         if os.path.isfile(name) and not os.path.getsize(name):
             os.remove(name)
             #print 'del '+name
+            logException()
         name = 0
     return name
 

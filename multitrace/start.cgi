@@ -6,8 +6,7 @@ from CallTrace import startCall, toString
 print 'Content-type: text/html'
 print
 
-#cgitb.enable(display=0, logdir='log')
-cgitb.enable()
+cgitb.enable(display=0, logdir='log')
 form = cgi.FieldStorage()
 
 TIMEFORMAT = '%Y-%m-%d %X'
@@ -23,21 +22,24 @@ if labip and isinstance(labip,list):
         if i not in ip and re.match(reg,i):
             ip.append(i)
     labip = ip[:]
+
 for key in form.keys():
     pm[key] = form.getvalue(key)
+
 pm['labip'] = labip
 
 start = startCall(pm)
 start.createXML()
+start.startCommand()
 
-## --thread-- ##
-#    try:
-#        start.startCommand()
-#    except Exception,e:
-#        print "NotCompleted"
-#        #print e
-#    else:
-## --thread-- ##
+### --thread-- ##
+#try:
+#    start.startCommand()
+#except Exception,e:
+#    print "NotCompleted"
+#    #print e
+#else:
+### --thread-- ##
 
 if start.status == 'Failure':
     print "NotCompleted"

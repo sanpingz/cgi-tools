@@ -1,13 +1,13 @@
 #!/opt/exptools/bin/python
 from os.path import join
-import os, time, glob
+import os, time, glob, logging
 from exceptions import Exception
 import pickle
 from string import replace
 from JsonDB import simpleDB
 import SimpleFTP
 from TimeFunc import FuncWrapper, Timeout
-from logCtrl import simpleLog
+from logCtrl import simpleLog, getLogger
 
 BASE_DIR = 'data'
 LOCAL = 'pcap'
@@ -40,7 +40,9 @@ template_STOP = '''<Request Action="TERMCT">
 </Request>'''
 
 def logException():
-    simpleLog(name='calltrace', file=LOG_FILE)
+    simpleLog(name='calltrace', file=LOG_FILE, level = logging.INFO)
+
+logger = getLogger(name='calltrace', file=LOG_FILE, level=logging.INFO)
 
 class callTrace:
     def __init__(self, param):
@@ -60,22 +62,24 @@ class callTrace:
     def isMulti(self):
         return isinstance(self.labip, list)
     def createXML(self): pass
-    def exeCommand(self, labip):
+    def exeCommand(self, labip, method=''):
         ctid = str(self.ctid)
-        input = join('data','start'+ctid+'.xml')
+        input = join('data',method+ctid+'.xml')
         cmm = './xml2cfg'
         out = join('data','out'+ctid+'.xml')
         #command =cmm+' -h '+labip+' -p '+HOST_PORT+' -i '+input+' -o '+out
         command ='%s -h %s -p %s -i %s -o %s' % (cmm, labip, HOST_PORT, input, out)
         try:
             os.system(command)
+            logger.info('subscriber -> %s, trace id -> %s' % (self.handle, self.ctid))
+            logger.info(command)
         except Exception:
             self.status = 'Failure'
             self.error['exeCommand'] = 'command execute error on '+labip
             logException()
-    def safeCommand(self, labip):
+    def safeCommand(self, labip, method=''):
         ctid = str(self.ctid)
-        input = join('data','start'+ctid+'.xml')
+        input = join('data',method+ctid+'.xml')
         cmm = './xml2cfg'
         out = join('data','out'+ctid+'.xml')
         command =cmm+' -h '+labip+' -p '+HOST_PORT+' -i '+input+' -o '+out
@@ -84,25 +88,28 @@ class callTrace:
             t = Timeout(8, func_obj)
             t.run()
             cb = func_obj.result
+            logger.info('subscriber -> %s, trace id -> %s' % (self.handle, self.ctid))
+            logger.info(command)
         except Exception:
             self.status = 'Failure'
             self.error['startCommand'] = 'command execute error on '+labip
             logException()
-        else:
-            if cb : self.status = 'Failure'
+            #raise Exception('timeout')
     def startCommand(self):
-        if 'Failure' != self.status:
-            try:
-                if self.isMulti():
-                    for ip in self.labip:
-                        self.exeCommand(ip)
-                else:
-                    self.exeCommand(self.labip)
-            finally:
-                xml = glob.glob(join('data',r'*.xml'))
-                if xml:
-                    for x in xml:
-                        os.remove(x)
+        try:
+            if 'Failure' != self.status:
+                try:
+                    if self.isMulti():
+                        for ip in self.labip:
+                            self.exeCommand(ip)
+                    else:
+                        self.exeCommand(self.labip)
+                except Exception: logException()
+        finally:
+            xml = glob.glob(join('data',r'*.xml'))
+            if xml:
+                for x in xml:
+                    os.remove(x)
 
 class startCall(callTrace):
     def __init__(self, param):
@@ -157,6 +164,8 @@ class startCall(callTrace):
             logException()
         f.close()
         os.system('chmod 755 '+filepath)
+    def exeCommand(self, labip, method='start'):
+        callTrace.safeCommand(self, labip, method=method)
     def saveData(self):
         user = {}
         param = {}
@@ -182,7 +191,7 @@ class stopCall(callTrace):
     def __init__(self, param):
         callTrace.__init__(self, param)
         self.status = 'Stopped'
-        self.ctid = param['ctid']
+        self.ctid = str(param['ctid'])
     def createXML(self):
         filename = 'stop'+str(self.ctid)+'.xml'
         filepath = join(BASE_DIR, filename)
@@ -199,6 +208,8 @@ class stopCall(callTrace):
             logException()
         f.close()
         os.system('chmod 755 '+filepath)
+    def exeCommand(self, labip, method='stop'):
+        callTrace.exeCommand(self, labip, method=method)
     def updateData(self):
         if self.status == 'Stopped' and self.handle:
             db = simpleDB(self.handle)

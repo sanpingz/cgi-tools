@@ -1,0 +1,7 @@
+2013-01-07 18:21:37,733 INFO : command --> ./xml2cfg -h 135.252.226.34 -p 9623 -i data\start35.xml -o data\out35.xml
+2013-01-07 18:23:42,362 INFO : command --> ./xml2cfg -h 135.252.226.34 -p 9623 -i data\start36.xml -o data\out36.xml
+2013-01-07 18:23:42,519 INFO : command --> ./xml2cfg -h 135.252.226.34 -p 9623 -i data\stop0.xml -o data\out0.xml
+2013-01-07 19:01:15,482 INFO : message --> subscriber: sanpingz, trace id: 37
+2013-01-07 19:01:15,482 INFO : command --> ./xml2cfg -h 135.252.226.34 -p 9623 -i data\start37.xml -o data\out37.xml
+2013-01-07 19:02:01,128 INFO : message --> subscriber: sanpingz, trace id: 38
+2013-01-07 19:02:01,128 INFO : command --> ./xml2cfg -h 135.252.226.34 -p 9623 -i data\start38.xml -o data\out38.xml
