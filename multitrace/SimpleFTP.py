@@ -4,14 +4,19 @@ __author__ = 'sanpingz'
 import re, socket, os, time
 from ftplib import FTP
 from os.path import join
-from mergePCAP import mergePCAP, genName
+from mergePCAP import mergePCAP
+from logCtrl import simpleLog
+
+LOG_FILE = join('data','simpleftp.log')
+def logException():
+    simpleLog(name='simpleftp', file=LOG_FILE)
 
 parameter = {'host':'135.252.226.34',
-         'user':'lss',
-         'passwd':'lss',
-         'cwd':'../../../logs/ctlog',
-         'path':'/logs/ctlog',
-         'local':'pcap'
+            'user':'lss',
+            'passwd':'lss',
+            'cwd':'../../../logs/ctlog',
+            'path':'/logs/ctlog',
+            'local':'pcap'
 }
 class sFTP:
     def __init__(self,param):
@@ -37,12 +42,12 @@ class sFTP:
                 #print "port"
                 self.ftp.set_pasv(1)
                 lt = self.ftp.nlst()
-        except: pass
+        except: logException()
         return lt
     def matchFile(self, fList, ctid):
         matched = ''
         maxValue = 0
-        reg = str(ctid)+'[\.|\,]\d{8}\.\d{4}[\.|\,]ISC\.\w+$'
+        reg = str(ctid)+'[\.|\,]\d{8}\.\d{4}[\.|\,]\w+\.\w+$'
         pattern = re.compile(reg)
         if fList:
             for file in fList:
@@ -97,13 +102,14 @@ def download(ids,param=parameter):
         fns = fd.mget(fns)
     except Exception, e:
         #print e
+        logException()
         fd.close()
     return fns
 
 def getLatest(fList,ctid,dst=parameter['local']):
     matched = ''
     maxValue = 0.0
-    reg = str(ctid)+'[\.|\,]\d{8}\.(\d{6}|\d{4})[\.|\,]\w+'
+    reg = str(ctid)+'[\.|\,]\d{8}\.\d{4}[\.|\,]\w+'
     pattern = re.compile(reg)
     if fList:
         for file in fList:
@@ -113,45 +119,57 @@ def getLatest(fList,ctid,dst=parameter['local']):
                 maxValue = cTime
     return matched
 
-def addr(ctid, param=parameter, duration=0):
+def genName(fns):
+    names = []
+    name = os.path.split(fns[0])[-1]
+    reg = '\d+[\.|\,]\d{8}\.\d{4}[\.|\,]\w+'
+    match = re.findall(reg, name)
+    if match:
+        name = match[0]+'.pcap'
+    else:
+        temp = time.strftime('%Y%m%d.%H%S',time.localtime(time.time()))
+        name = re.split('[,|\.]',name)[0]+'.'+temp+'.merge.pcap'
+    return name
+
+def addr(param=parameter, duration=0):
     dst = param['local']
+    labip = param['labip']
+    ctid = param['ctid']
     matched = ''
+    if isinstance(labip,list) and len(labip)==1:
+        labip = labip[0]
     try:
         if not os.path.isdir(dst):
             os.mkdir(dst)
-        if not isinstance(ctid, list):
-            matched = getLatest(os.listdir(dst),ctid,dst=dst)
-        if not matched and str(ctid).isdigit():
+        matched = getLatest(os.listdir(dst),ctid,dst=dst)
+        if not matched and not isinstance(labip,list):
             fns = download([ctid], param=param)
             if fns:
                 for i in range(len(fns)):
                     fns[i] = os.path.split(fns[i])[-1]
                 matched = getLatest(fns,ctid)
-        if not matched and isinstance(ctid,list):
-            ctid = map(int,ctid)
-            ctid.sort()
-            ctid_str = ''
-            for ii in ctid:
-                ctid_str += str(ii)+'.'
-            ctid_str = ctid_str[:-1]
-            matched = getLatest(os.listdir(dst),ctid_str,dst=dst)
-            if not matched:
-                ftp = sFTP(param)
-                fns = []
-                for item in ctid:
-                    fns.append(ftp.getAddr(flag='local',fList=os.listdir(param['local']),ctid=item))
+        elif not matched and isinstance(labip,list):
+            fns = []
+            for ip in labip:
+                param['labip'] = ip
+                fns += download([ctid], param=param)
+            if fns:
                 matched = mergePCAP(fns,name=join(param['local'],genName(fns)))
-                if matched:
-                    matched = os.path.split(matched)[-1]
+            if matched:
+                for fn in fns:
+                    if os.path.isfile(fn): os.remove(fn)
+                matched = os.path.split(matched)[-1]
+
         if matched:
             matched = join(dst,matched)
     except:
         matched = ''
+        logException()
     if duration:
         try:
             """duration = 24h"""
             mergePCAP.rmPCAP(duration=duration,dir=param['local'])
-        except:pass
+        except: logException()
     return  matched
 
 
@@ -165,4 +183,6 @@ if __name__ == '__main__':
     #fd.close()
 
     #print getLatest(os.listdir('pcap'),17)
-    print addr([16,18,19])
+    parameter['labip'] = ['135.252.226.34','135.2.81.97']
+    parameter['ctid'] = 343
+    print addr(parameter)

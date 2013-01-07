@@ -74,9 +74,9 @@ class simpleDB:
                     if alt >= exp and value['status'] == 'Started':
                         param = SimpleFTP.parameter
                         param['host'] = value['labip']
+                        param['ctid'] = value['ctid']
                         param['local'] = LOCAL
-                        ctid = value['ctid']
-                        addr = SimpleFTP.addr(ctid, param=param, duration=24)
+                        addr = SimpleFTP.addr(param=param, duration=24)
                         if addr and (len(addr)>0) and (len(addr)<120):
                             value['status'] = 'Stopped'
                             value['addr'] = addr

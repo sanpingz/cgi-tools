@@ -408,7 +408,7 @@ cz_event = {
             '<label class="control-label" for="inputs">CNFG IP</label>'+
             '<div class="controls">'+
             '<abbr title="e.g.: 135.2.121.97" class="initialism"><input type="text" class="input-xlarge cnfg" name="labip"></abbr>'+
-            '<div class="cnfgip" style="float: right; margin-top: 5px; margin-right: 160px;">'+
+            '<div class="cnfgip cnfg_plus">'+
             '<a href="javascript:void(0)" class="ui-corner-all" role="button"><span class="ui-icon ui-icon-circle-minus">minus</span></a>'+
             '</div>'+
             '<p id="ip-tips" class="help-block" style="margin-top:0; font-size:12px;">Input the lab IP address.</p>'+

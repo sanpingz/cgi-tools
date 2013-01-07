@@ -9,6 +9,7 @@ form = cgi.FieldStorage()
 param = {}
 for key in form.keys():
     param[key] = form[key].value
+param['labip'] = param.get('labip').split(',')
 stop = stopCall(param)
 stop.createXML()
 stop.startCommand()

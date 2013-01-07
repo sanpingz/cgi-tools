@@ -31,6 +31,7 @@
         #merge_bar form { padding-right: 2px; }
         #merge_bar form input { width: auto; margin: 0; padding: 4px; max-width: 75px; max-height: 18px; }
         #merge_bar form a { width: auto; margin: 0; font-size: 12px; padding: 4px;}
+        .cnfg_plus { width:20px; float: none; margin-top: -24px; margin-left: 300px; margin-bottom: 8px; }
     </style>
     <link href="../assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/lib/jquery-ui-1.9.1.custom/css/redmond/jquery-ui-1.9.1.custom.min.css">
@@ -119,7 +120,7 @@
                             <abbr title="e.g.: 135.2.121.97" class="initialism">
                                 <input type="text" class="input-xlarge" id="input01" name="labip">
                             </abbr>
-                            <div id="bt-plus" style="float: right; margin-top: 5px; margin-right: 160px;">
+                            <div id="bt-plus" class="cnfg_plus">
                                 <a href="javascript:void(0)" class="ui-corner-all" role="button">
                                     <span class="ui-icon ui-icon-circle-plus">add</span>
                                 </a>
@@ -227,12 +228,12 @@
                 </table>
             </form>
 
-            <div id="merge_bar" class="control-group">
+            <!--<div id="merge_bar" class="control-group">
                 <form class="navbar-form pull-left">
                     <input type="text" class="span2">
                     <a href="javascript:void(0)" class="btn">MergePCAP</a>
                 </form>
-            </div>
+            </div>-->
 
         </div>
     </div>
@@ -328,7 +329,7 @@
         cz_event.init();
         cz_event.plus();
         //cz_event.merge();
-        cz_event.sidebar();
+        //cz_event.sidebar();
     })
 </script>
 </body>

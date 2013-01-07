@@ -1,7 +1,7 @@
 #!/opt/exptools/bin/python
 import cgi, cgitb
 from JsonDB import simpleDB
-import traceback
+from CallTrace import toString
 
 print 'Content-type: text/html'
 print
@@ -34,11 +34,11 @@ if form.has_key('handle'):
             else:
                 print '<td> %s </td>' % value['callid']
             print '<td> %s </td>' % value['duration']
-            print '<td class="cb_labip"> %s </td>' % value['labip']
+            print '<td class="cb_labip"> %s </td>' % toString(value['labip'])
             print '<td class="cb_status"><div> %s </div></td>' % value['status']
             print '<td> %s </td>' % value['startime']
             print '<td class="op_stop">'
-            print '<input type="hidden" name="labip" value="%s" />' % value['labip']
+            print '<input type="hidden" name="labip" value="%s" />' % toString(value['labip'])
             if (value['status'] == 'Stopped') and value.get('addr'):
                 print '<input type="hidden" name="ctid" value="%s" />' % key
                 print'''<button type="button" class="btn btn-mini ct-button" style="display:none;">Stop</button>

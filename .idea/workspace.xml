@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a819b3-e076-4125-a743-0a4fb5369978" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitrace/logCtrl.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/calltrace.cz.js" afterPath="$PROJECT_DIR$/assets/js/calltrace.cz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/CallTrace.py" afterPath="$PROJECT_DIR$/multitrace/CallTrace.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/JsonDB.py" afterPath="$PROJECT_DIR$/multitrace/JsonDB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/SimpleFTP.py" afterPath="$PROJECT_DIR$/multitrace/SimpleFTP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/data/ctid.dat" afterPath="$PROJECT_DIR$/multitrace/data/ctid.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/index.html" afterPath="$PROJECT_DIR$/multitrace/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/load.cgi" afterPath="$PROJECT_DIR$/multitrace/load.cgi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/start.cgi" afterPath="$PROJECT_DIR$/multitrace/start.cgi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multitrace/stop.cgi" afterPath="$PROJECT_DIR$/multitrace/stop.cgi" />
     </list>
     <ignored path="calltrace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,22 +56,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/util/scp_hss.py" />
-        <option value="$PROJECT_DIR$/util/scpHSS.py" />
-        <option value="$PROJECT_DIR$/util/simpleFTP.py" />
         <option value="$PROJECT_DIR$/multitrace/FTPDownload.py" />
         <option value="$PROJECT_DIR$/util/mergePCAP.py" />
-        <option value="$PROJECT_DIR$/multitrace/JsonDB.py" />
-        <option value="$PROJECT_DIR$/multitrace/CallTrace.py" />
         <option value="$PROJECT_DIR$/multitrace/download.cgi" />
         <option value="$PROJECT_DIR$/multitrace/merge.cgi.py" />
         <option value="$PROJECT_DIR$/multitrace/merge.cgi" />
         <option value="$PROJECT_DIR$/multitrace/mergePCAP.py" />
-        <option value="$PROJECT_DIR$/multitrace/SimpleFTP.py" />
-        <option value="$PROJECT_DIR$/multitrace/start.cgi" />
+        <option value="$PROJECT_DIR$/multitrace/JsonDB.py" />
         <option value="$PROJECT_DIR$/multitrace/load.cgi" />
+        <option value="$PROJECT_DIR$/multitrace/stop.cgi" />
+        <option value="$PROJECT_DIR$/multitrace/logCtrl.py" />
+        <option value="$PROJECT_DIR$/multitrace/data/calltrace.log" />
+        <option value="$PROJECT_DIR$/multitrace/SimpleFTP.py" />
         <option value="$PROJECT_DIR$/assets/js/calltrace.cz.js" />
         <option value="$PROJECT_DIR$/multitrace/index.html" />
+        <option value="$PROJECT_DIR$/multitrace/CallTrace.py" />
+        <option value="$PROJECT_DIR$/multitrace/start.cgi" />
       </list>
     </option>
   </component>
@@ -106,30 +115,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calltrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calltrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multitrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -147,12 +132,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -180,43 +165,7 @@
       <recent name="C:\Documents and Settings\sanpingz\PycharmProjects\public_html\command" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mergePCAP">
-    <configuration default="false" name="loadJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="calltrace" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/loadJson.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FTPDownload" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multitrace" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="calltrace" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multitrace/FTPDownload.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="MULTIPROCESS" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.SimpleFTP">
     <configuration default="false" name="mergecap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,6 +214,42 @@
       <module name="calltrace" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multitrace/mergePCAP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CallTrace" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multitrace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multitrace/CallTrace.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="start.cgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multitrace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="calltrace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multitrace/start.cgi" />
       <option name="PARAMETERS" value="" />
       <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -332,19 +317,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.loadJson" />
-      <item index="1" class="java.lang.String" itemvalue="Python.FTPDownload" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mergecap" />
-      <item index="3" class="java.lang.String" itemvalue="Python.SimpleFTP" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mergePCAP" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mergecap" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SimpleFTP" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mergePCAP" />
+      <item index="3" class="java.lang.String" itemvalue="Python.CallTrace" />
+      <item index="4" class="java.lang.String" itemvalue="Python.start.cgi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mergePCAP" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SimpleFTP" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mergePCAP" />
-        <item index="3" class="java.lang.String" itemvalue="Python.FTPDownload" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mergecap" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SimpleFTP" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CallTrace" />
+        <item index="2" class="java.lang.String" itemvalue="Python.start.cgi" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mergePCAP" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mergePCAP" />
       </list>
     </recent_temporary>
   </component>
@@ -401,9 +386,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3260135" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993865" sideWeight="0.33445945" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1595092" sideWeight="0.7111486" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16257669" sideWeight="0.7111486" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16768916" sideWeight="0.3158784" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27195945" sideWeight="0.51329243" order="0" side_tool="true" content_ui="tabs" />
@@ -413,7 +399,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -476,66 +461,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/command/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.428571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/mergePCAP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="0" selection-start="5556" selection-end="5556" vertical-scroll-proportion="8.476584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/SendMail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/download.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="0.6215722" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/stop.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="197" selection-end="197" vertical-scroll-proportion="0.4069149" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/FTPDownload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5454545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/mergePCAP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="29" selection-start="5816" selection-end="5816" vertical-scroll-proportion="4.6762404" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/CallTrace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="2" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/merge.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="179" selection-end="179" vertical-scroll-proportion="0.42929292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/load.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="77" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/start.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="68" selection-start="623" selection-end="671" vertical-scroll-proportion="0.37859008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multitrace/SimpleFTP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="26" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.6005222" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/twitter-bootstrap-v2.0.4/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="880" column="2" selection-start="12214" selection-end="12226" vertical-scroll-proportion="-3.02">
@@ -550,17 +475,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/load.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="70" selection-start="1152" selection-end="1152" vertical-scroll-proportion="1.7327824">
+          <folding>
+            <element signature="e#27#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/FTPDownload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/data/calltrace.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/logCtrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="482" selection-end="482" vertical-scroll-proportion="0.68686867">
+          <folding>
+            <element signature="e#22#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/mergePCAP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="21" vertical-scroll-proportion="-1.3315927">
+          <folding>
+            <element signature="e#160#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/JsonDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="24" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.5277778">
+          <folding>
+            <element signature="e#52#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/download.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/merge.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/SimpleFTP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#52#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/CallTrace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="24" selection-start="7049" selection-end="7049" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#27#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/stop.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/calltrace.cz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="495" column="31" selection-start="19058" selection-end="19058" vertical-scroll-proportion="0.57039714" />
+        <state line="45" column="115" selection-start="1396" selection-end="1495" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1357545070124" expanded="false" signature="16074:16103" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitrace/start.cgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="485" selection-end="485" vertical-scroll-proportion="0.37465563">
+          <folding>
+            <element signature="e#27#44#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multitrace/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="307" column="10" selection-start="14651" selection-end="14651" vertical-scroll-proportion="9.88447">
+        <state line="336" column="0" selection-start="15541" selection-end="15541" vertical-scroll-proportion="1.2296919">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#2;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#6;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h2#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
